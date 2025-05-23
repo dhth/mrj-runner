@@ -4,9 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  MRJ_VERSION: v0.1.0-alpha.1
-  CLICOLOR_FORCE: 1
-  COLORTERM: "truecolor"
+  MRJ_VERSION: v0.1.0-alpha.2
 
 jobs:
   run:
@@ -28,5 +26,7 @@ jobs:
       - name: Run mrj
         env:
           MRJ_TOKEN: ${{ steps.generate-token.outputs.token }}
+          CLICOLOR_FORCE: 1
+          COLORTERM: "truecolor"
         run: |
           mrj -c mrj-dry-run.toml -d

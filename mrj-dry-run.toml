@@ -1,6 +1,5 @@
 repos = [
     "dhth/act3",
-    "dhth/act3",
     "dhth/bmm",
     "dhth/ecscope",
     "dhth/ecsv",
