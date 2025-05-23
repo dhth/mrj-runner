@@ -9,7 +9,7 @@ env:
   MRJ_VERSION: v0.1.0-alpha.1
 
 jobs:
-  merge:
+  run:
     runs-on: ubuntu-latest
     steps:
       - name: Install mrj
