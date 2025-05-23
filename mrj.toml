@@ -1,12 +1,8 @@
 repos = [
     "dhth/act3",
-    "dhth/cueitup",
-    "dhth/ddiff",
     "dhth/ecscope",
     "dhth/ecsv",
-    "dhth/kplay",
     "dhth/mrj",
-    "dhth/outtasync",
     "dhth/shfl",
     "dhth/squidge",
     "dhth/squish",
