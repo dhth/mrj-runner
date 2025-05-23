@@ -1,0 +1,30 @@
+name: mrj
+
+on:
+  workflow_dispatch:
+
+env:
+  MRJ_VERSION: v0.1.0-alpha.1
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install mrj
+        uses: jaxxstorm/action-install-gh-release@6096f2a2bbfee498ced520b6922ac2c06e990ed2 # v2.1.0
+        with:
+          repo: dhth/mrj
+          tag: ${{ env.MRJ_VERSION }}
+      - uses: actions/checkout@v4
+      - name: Generate GH token
+        id: generate-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.MRJ_APP_ID }}
+          private-key: ${{ secrets.MRJ_APP_PRIVATE_KEY }}
+          owner: dhth
+      - name: Run mrj
+        env:
+          MRJ_TOKEN: ${{ steps.generate-token.outputs.token }}
+        run: |
+          mrj -c mrj-dry-run.toml
