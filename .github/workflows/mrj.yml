@@ -1,0 +1,29 @@
+name: mrj
+
+on:
+  workflow_dispatch:
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: dhth/mrj
+      - name: Install toolchain
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+      - name: Build
+        run: cargo install --path .
+      - uses: actions/checkout@v4
+      - name: Generate GH token
+        id: generate-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.MRJ_APP_ID }}
+          private-key: ${{ secrets.MRJ_APP_PRIVATE_KEY }}
+          owner: dhth
+      - name: Run mrj
+        env:
+          MRJ_TOKEN: ${{ steps.generate-token.outputs.token }}
+        run: |
+          mrj -d

@@ -1,0 +1,21 @@
+repos = [
+    "dhth/act3",
+    "dhth/cueitup",
+    "dhth/ddiff",
+    "dhth/ecscope",
+    "dhth/ecsv",
+    "dhth/kplay",
+    "dhth/mrj",
+    "dhth/outtasync",
+    "dhth/shfl",
+    "dhth/squidge",
+    "dhth/squish",
+    "dhth/tash",
+    "dhth/tbll",
+    "dhth/tomo",
+    "dhth/urll",
+]
+trusted_authors = ["dependabot[bot]"]
+merge_if_blocked = true
+merge_if_checks_skipped = true
+merge_type = "squash"
