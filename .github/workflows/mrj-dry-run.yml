@@ -5,6 +5,8 @@ on:
 
 env:
   MRJ_VERSION: v0.1.0-alpha.1
+  CLICOLOR_FORCE: 1
+  COLORTERM: "truecolor"
 
 jobs:
   run:
