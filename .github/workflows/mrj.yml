@@ -34,7 +34,10 @@ jobs:
         env:
           MRJ_TOKEN: ${{ steps.generate-token.outputs.token }}
         run: |
-          mrj run | tee output.txt
+          CLICOLOR_FORCE: 1
+          COLORTERM: "truecolor"
+          mrj run | tee output-with-ansi-codes.txt
+          cat output-with-ansi-codes.txt | sed -e 's/\x1b\[[0-9;]*m//g' > output.txt
       - name: Generate results
         run: |
           ./run.sh
