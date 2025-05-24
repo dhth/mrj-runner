@@ -5,6 +5,11 @@ on:
     - cron: '0-59/30 21-23 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 env:
   MRJ_VERSION: v0.1.0-alpha.4
 
@@ -28,7 +33,26 @@ jobs:
       - name: Run mrj
         env:
           MRJ_TOKEN: ${{ steps.generate-token.outputs.token }}
-          CLICOLOR_FORCE: 1
-          COLORTERM: "truecolor"
         run: |
-          mrj run
+          mrj run | tee output.txt
+      - name: Generate results
+        run: |
+          ./run.sh
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "dist"
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Commit and push results
+        run: |
+          build_num=$(cat run-number.txt)
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "add run-${build_num}" || echo "No changes to commit"
+          git push
