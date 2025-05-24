@@ -19,5 +19,6 @@ python3 generate_index.py \
 
 ls -1t runs/run-*.html | tail -n +21 | xargs -r rm --
 cp runs/run-*.html dist
+cp -r static dist
 
 echo $build_num >run-number.txt
