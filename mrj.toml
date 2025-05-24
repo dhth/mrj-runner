@@ -8,11 +8,9 @@ repos = [
     "dhth/ecscope",
     "dhth/ecsv",
     "dhth/ghx",
-    "dhth/homebrew-tap",
     "dhth/hours",
     "dhth/kplay",
     "dhth/mrj",
-    "dhth/mrj-runner",
     "dhth/mult",
     "dhth/omm",
     "dhth/outtasync",
@@ -26,9 +24,7 @@ repos = [
     "dhth/swatches",
     "dhth/tash",
     "dhth/tbll",
-    "dhth/test-repo-1",
     "dhth/tomo",
-    "dhth/typelevel-rop",
     "dhth/urll",
 ]
 trusted_authors = ["dependabot[bot]"]

@@ -29,4 +29,4 @@ jobs:
           CLICOLOR_FORCE: 1
           COLORTERM: "truecolor"
         run: |
-          mrj run -c mrj-dry-run.toml -d
+          mrj run --dry-run
