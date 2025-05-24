@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  MRJ_VERSION: v0.1.0-alpha.2
+  MRJ_VERSION: v0.1.0-alpha.4
 
 jobs:
   run:
@@ -29,4 +29,4 @@ jobs:
           CLICOLOR_FORCE: 1
           COLORTERM: "truecolor"
         run: |
-          mrj -c mrj-dry-run.toml -d
+          mrj run -c mrj-dry-run.toml -d
