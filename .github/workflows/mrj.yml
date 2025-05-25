@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 env:
-  MRJ_VERSION: v0.1.0-alpha.4
+  MRJ_VERSION: v0.1.0-alpha.5
 
 jobs:
   run:
@@ -36,11 +36,10 @@ jobs:
           CLICOLOR_FORCE: 1
           COLORTERM: "truecolor"
         run: |
-          mrj run | tee output-with-ansi-codes.txt
-          cat output-with-ansi-codes.txt | sed -e 's/\x1b\[[0-9;]*m//g' > output.txt
-      - name: Generate results
+          mrj run -o
+      - name: Generate report
         run: |
-          ./run.sh
+          mrj report generate
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
@@ -55,6 +54,7 @@ jobs:
           build_num=$(cat run-number.txt)
 
           git config user.name "github-actions[bot]"
+          # https://github.com/actions/checkout?tab=readme-ov-file#push-a-commit-using-the-built-in-token
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "add run-${build_num}" || echo "No changes to commit"

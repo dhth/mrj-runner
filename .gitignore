@@ -1,4 +1,2 @@
 dist
-.ruff_cache
 output.txt
-output-with-ansi-codes.txt
