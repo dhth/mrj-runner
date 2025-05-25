@@ -51,7 +51,7 @@ jobs:
         uses: actions/deploy-pages@v4
       - name: Commit and push results
         run: |
-          build_num=$(cat run-number.txt)
+          build_num=$(cat ./.mrj/last-run.txt)
 
           git config user.name "github-actions[bot]"
           # https://github.com/actions/checkout?tab=readme-ov-file#push-a-commit-using-the-built-in-token
