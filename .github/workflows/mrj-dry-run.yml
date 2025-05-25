@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  MRJ_VERSION: v0.1.0-alpha.5
+  MRJ_VERSION: v0.1.0-alpha.6
 
 jobs:
   run:

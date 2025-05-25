@@ -27,7 +27,7 @@ repos = [
     "dhth/tomo",
     "dhth/urll",
 ]
-trusted_authors = ["dependabot[bot]"]
-merge_if_blocked = true
+trusted_authors = ["dependabot[bot]", "github-actions[bot]"]
+merge_if_blocked = false
 merge_if_checks_skipped = true
 merge_type = "squash"
