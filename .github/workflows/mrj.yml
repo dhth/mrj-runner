@@ -2,7 +2,7 @@ name: mrj
 
 on:
   schedule:
-    - cron: '0 21 * * *'
+    - cron: '0 21,22 * * *'
   workflow_dispatch:
 
 permissions:
@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 env:
-  MRJ_VERSION: v0.1.0-alpha.6
+  MRJ_VERSION: v0.1.0-alpha.7
 
 jobs:
   run:
