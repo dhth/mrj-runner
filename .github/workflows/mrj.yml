@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 env:
-  MRJ_VERSION: v0.1.0-alpha.8
+  MRJ_VERSION: v0.1.0-alpha.9
 
 jobs:
   run:
@@ -40,6 +40,9 @@ jobs:
       - name: Generate report
         run: |
           mrj report generate
+      - name: Get run number
+        id: run-number
+        run: echo "number=$(cat ./.mrj/last-run.txt)" >> "$GITHUB_OUTPUT"
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
@@ -59,3 +62,39 @@ jobs:
           git add .
           git commit -m "add run-${build_num}" || echo "No changes to commit"
           git push
+      - name: Generate results
+        id: get-results
+        run: |
+          tail -n 9 output.txt > stats.txt
+           {
+            echo 'results<<EOF'
+            cat stats.txt | python -c 'import sys;data = sys.stdin.read().replace("\n", "\\n");print(data)'
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+      - name: Send notification
+        if: contains(steps.get-results.outputs.results, 'Stats')
+        id: send-notification
+        uses: slackapi/slack-github-action@v1
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+        with:
+          channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
+          payload: |
+            {
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "elements": [
+                    {
+                      "type": "rich_text_preformatted",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "mrj run #${{ steps.run-number.outputs.number }} just concluded\n\n${{ steps.get-results.outputs.results }}"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
