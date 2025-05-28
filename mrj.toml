@@ -16,7 +16,6 @@ repos = [
     "dhth/outtasync",
     "dhth/prs",
     "dhth/punchout",
-    "dhth/resume",
     "dhth/schemas",
     "dhth/shfl",
     "dhth/squidge",

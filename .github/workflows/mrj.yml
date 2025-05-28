@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 env:
-  MRJ_VERSION: v0.1.0-alpha.10
+  MRJ_VERSION: v0.1.0-alpha.11
 
 jobs:
   run:
@@ -59,26 +59,19 @@ jobs:
         uses: actions/deploy-pages@v4
       - name: Commit and push results
         run: |
-          build_num=$(cat ./.mrj/last-run.txt)
-
           git config user.name "github-actions[bot]"
           # https://github.com/actions/checkout?tab=readme-ov-file#push-a-commit-using-the-built-in-token
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "add run-${build_num}"
+          git commit -m "add run-${{ steps.run-number.outputs.number }}"
           git push
-      - name: Generate stats
-        id: get-stats
+      - name: Generate summary
+        id: get-summary
         run: |
-          cat stats.csv | tbll > stats.txt
-           {
-            echo 'stats<<EOF'
-            cat stats.txt | python -c 'import sys;data = sys.stdin.read().replace("\n", "\\n");print(data)'
-            echo EOF
-          } >> "$GITHUB_OUTPUT"
+          echo "summary=$(cat summary.txt | python -c 'import sys;data = sys.stdin.read().replace("\n", "\\n");print(data)')" >> "$GITHUB_OUTPUT"
       - name: Send notification
         id: send-notification
-        if: contains(steps.get-stats.outputs.stats, 'Stat')
+        if: contains(steps.get-summary.outputs.summary, 'SUMMARY')
         uses: slackapi/slack-github-action@v1
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
@@ -95,7 +88,7 @@ jobs:
                       "elements": [
                         {
                           "type": "text",
-                          "text": "mrj run #${{ steps.run-number.outputs.number }} just concluded\n\n${{ steps.get-stats.outputs.stats }}"
+                          "text": "mrj run #${{ steps.run-number.outputs.number }} just concluded\n\n${{ steps.get-summary.outputs.summary }}"
                         }
                       ]
                     }
