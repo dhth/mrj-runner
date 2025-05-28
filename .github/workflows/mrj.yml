@@ -41,7 +41,7 @@ jobs:
           CLICOLOR_FORCE: 1
           COLORTERM: "truecolor"
         run: |
-          mrj run -os
+          mrj run -osi
       - name: Generate report
         run: |
           mrj report generate
