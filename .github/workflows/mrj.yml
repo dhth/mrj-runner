@@ -69,7 +69,6 @@ jobs:
           git push
       - name: Generate stats
         id: get-stats
-        if: ${{ exists('stats.csv') }}
         run: |
           cat stats.csv | tbll > stats.txt
            {
