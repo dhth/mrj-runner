@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 env:
-  MRJ_VERSION: v0.1.0-alpha.9
+  MRJ_VERSION: v0.1.0-alpha.10
 
 jobs:
   run:
@@ -22,6 +22,11 @@ jobs:
         with:
           repo: dhth/mrj
           tag: ${{ env.MRJ_VERSION }}
+      - name: Install tbll
+        uses: jaxxstorm/action-install-gh-release@6096f2a2bbfee498ced520b6922ac2c06e990ed2 # v2.1.0
+        with:
+          repo: dhth/tbll
+          tag: v1.1.0
       - uses: actions/checkout@v4
       - name: Generate GH token
         id: generate-token
@@ -36,7 +41,7 @@ jobs:
           CLICOLOR_FORCE: 1
           COLORTERM: "truecolor"
         run: |
-          mrj run -o
+          mrj run -os
       - name: Generate report
         run: |
           mrj report generate
@@ -60,20 +65,21 @@ jobs:
           # https://github.com/actions/checkout?tab=readme-ov-file#push-a-commit-using-the-built-in-token
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "add run-${build_num}" || echo "No changes to commit"
+          git commit -m "add run-${build_num}"
           git push
-      - name: Generate results
-        id: get-results
+      - name: Generate stats
+        id: get-stats
+        if: ${{ exists('stats.csv') }}
         run: |
-          tail -n 9 output.txt > stats.txt
+          cat stats.csv | tbll > stats.txt
            {
-            echo 'results<<EOF'
+            echo 'stats<<EOF'
             cat stats.txt | python -c 'import sys;data = sys.stdin.read().replace("\n", "\\n");print(data)'
             echo EOF
           } >> "$GITHUB_OUTPUT"
       - name: Send notification
-        if: contains(steps.get-results.outputs.results, 'Stats')
         id: send-notification
+        if: contains(steps.get-stats.outputs.stats, 'Stat')
         uses: slackapi/slack-github-action@v1
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
@@ -90,7 +96,7 @@ jobs:
                       "elements": [
                         {
                           "type": "text",
-                          "text": "mrj run #${{ steps.run-number.outputs.number }} just concluded\n\n${{ steps.get-results.outputs.results }}"
+                          "text": "mrj run #${{ steps.run-number.outputs.number }} just concluded\n\n${{ steps.get-stats.outputs.stats }}"
                         }
                       ]
                     }
