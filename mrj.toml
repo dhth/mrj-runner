@@ -4,6 +4,7 @@ repos = [
     "dhth/chronotes",
     "dhth/commits",
     "dhth/cueitup",
+    "dhth/ddiff",
     "dhth/dstll",
     "dhth/ecscope",
     "dhth/ecsv",
