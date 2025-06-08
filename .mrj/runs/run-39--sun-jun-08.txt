@@ -10,8 +10,29 @@
 
 
 
-[INFO] The time right now is 2025-05-29 22:09:26.017410788 UTC
+[INFO] The time right now is 2025-06-08 22:08:50.172190944 UTC
+[INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I won't show repositories that have no PRs
+
+
+=============
+  dhth/omm
+=============
+
+-> checking PR #71
+        allow showing and searching tasks
+        https://github.com/dhth/omm/pull/71
+        [ author ]   "dhth" is not in the list of trusted authors ❌
+
+
+=============
+  dhth/act3
+=============
+
+-> checking PR #22
+        Added x install Support for act3
+        https://github.com/dhth/act3/pull/22
+        [ author ]   "lunrenyi" is not in the list of trusted authors ❌
 
 
 =============
@@ -32,30 +53,22 @@
 
 
 =============
-  dhth/cueitup
+  dhth/hours
 =============
 
--> checking PR #51
-        chore(deps): bump golangci/golangci-lint-action from 7 to 8
-        https://github.com/dhth/cueitup/pull/51
+-> checking PR #66
+        chore(deps): bump github.com/charmbracelet/bubbles from 0.20.0 to 0.21.0
+        https://github.com/dhth/hours/pull/66
         [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "live (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "live (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
         [ check  ]   "lint" concluded with undesired status: "failure" ❌
 
-
-=============
-  dhth/act3
-=============
-
--> checking PR #29
-        chore(deps): bump github.com/olekukonko/tablewriter from 0.0.5 to 1.0.6
-        https://github.com/dhth/act3/pull/29
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "build (ubuntu-latest)" concluded with undesired status: "failure" ❌
-
--> checking PR #22
-        Added x install Support for act3
-        https://github.com/dhth/act3/pull/22
-        [ author ]   "lunrenyi" is not in the list of trusted authors ❌
+-> checking PR #44
+        feat: allow time tracking via the CLI
+        https://github.com/dhth/hours/pull/44
+        [ author ]   "dhth" is not in the list of trusted authors ❌
 
 
 =============
@@ -79,33 +92,7 @@
         https://github.com/dhth/bmm/pull/21
         [ author ]   "dhth" is not in the list of trusted authors ❌
 
-
-=============
-  dhth/hours
-=============
-
--> checking PR #68
-        chore(deps): bump github.com/olekukonko/tablewriter from 0.0.5 to 1.0.6
-        https://github.com/dhth/hours/pull/68
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "live" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with undesired status: "failure" ❌
-
--> checking PR #66
-        chore(deps): bump github.com/charmbracelet/bubbles from 0.20.0 to 0.21.0
-        https://github.com/dhth/hours/pull/66
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "live (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "live (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with undesired status: "failure" ❌
-
--> checking PR #44
-        feat: allow time tracking via the CLI
-        https://github.com/dhth/hours/pull/44
-        [ author ]   "dhth" is not in the list of trusted authors ❌
-
-[INFO] This run ended at 2025-05-29 22:09:28.205086968 UTC; took 2 seconds
+[INFO] This run ended at 2025-06-08 22:08:51.696795314 UTC; took 1 seconds
 
 
 ===========
@@ -113,7 +100,7 @@
 ===========
 
 # PRs merged          :  0
-# PRs disqualified    :  9
-# Repos checked       :  26
-# Repos with no PRs   :  21
+# PRs disqualified    :  7
+# Repos checked       :  28
+# Repos with no PRs   :  23
 # Errors encountered  :  0
