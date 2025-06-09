@@ -1,0 +1,178 @@
+
+                          __
+          ___ ___   _ __ /\_\
+        /' __` __`\/\`'__\/\ \
+        /\ \/\ \/\ \ \ \/ \ \ \
+        \ \_\ \_\ \_\ \_\ _\ \ \
+         \/_/\/_/\/_/\/_//\ \_\ \
+                         \ \____/
+                          \/___/
+
+
+
+[INFO] The time right now is 2025-06-09 21:09:35.768348775 UTC
+[INFO] I'm only looking for PRs where the base branch is "main"
+[INFO] I won't show repositories that have no PRs
+
+
+=============
+  dhth/act3
+=============
+
+-> checking PR #22
+        Added x install Support for act3
+        https://github.com/dhth/act3/pull/22
+        [ author ]   "lunrenyi" is not in the list of trusted authors ❌
+
+
+=============
+  dhth/omm
+=============
+
+-> checking PR #71
+        allow showing and searching tasks
+        https://github.com/dhth/omm/pull/71
+        [ author ]   "dhth" is not in the list of trusted authors ❌
+
+
+=============
+  dhth/bmm
+=============
+
+-> checking PR #35
+        build(deps): bump tui-input from 0.11.1 to 0.12.1
+        https://github.com/dhth/bmm/pull/35
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with undesired status: "failure" ❌
+
+-> checking PR #21
+        feat: allow fetching bookmark title from remote server
+        https://github.com/dhth/bmm/pull/21
+        [ author ]   "dhth" is not in the list of trusted authors ❌
+
+
+=============
+  dhth/punchout
+=============
+
+-> checking PR #50
+        chore(deps): bump modernc.org/sqlite from 1.37.1 to 1.38.0
+        https://github.com/dhth/punchout/pull/50
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "live (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "live (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/hours
+=============
+
+-> checking PR #66
+        chore(deps): bump github.com/charmbracelet/bubbles from 0.20.0 to 0.21.0
+        https://github.com/dhth/hours/pull/66
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "live (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "live (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   ".github/dependabot.yml" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/kplay
+=============
+
+-> checking PR #66
+        chore(deps): bump github.com/twmb/franz-go from 1.19.4 to 1.19.5
+        https://github.com/dhth/kplay/pull/66
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/tbll
+=============
+
+-> checking PR #35
+        chore(deps): bump tabled from 0.19.0 to 0.20.0
+        https://github.com/dhth/tbll/pull/35
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "custom-release-packages" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/commits
+=============
+
+-> checking PR #15
+        chore(deps): bump github.com/go-git/go-git/v5 from 5.16.0 to 5.16.2
+        https://github.com/dhth/commits/pull/15
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "build" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+[INFO] This run ended at 2025-06-09 21:09:38.066840999 UTC; took 2 seconds
+
+
+===========
+  SUMMARY
+===========
+
+# PRs merged          :  5
+# PRs disqualified    :  4
+# Repos checked       :  28
+# Repos with no PRs   :  20
+# Errors encountered  :  0
+
+PRs merged
+---
+
+- [dhth/punchout] chore(deps): bump modernc.org/sqlite from 1.37.1 to 1.38.0
+- [dhth/hours] chore(deps): bump github.com/charmbracelet/bubbles from 0.20.0 to 0.21.0
+- [dhth/kplay] chore(deps): bump github.com/twmb/franz-go from 1.19.4 to 1.19.5
+- [dhth/tbll] chore(deps): bump tabled from 0.19.0 to 0.20.0
+- [dhth/commits] chore(deps): bump github.com/go-git/go-git/v5 from 5.16.0 to 5.16.2
