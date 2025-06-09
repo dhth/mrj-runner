@@ -10,8 +10,39 @@
 
 
 
-[INFO] The time right now is 2025-05-30 22:09:19.836241164 UTC
+[INFO] The time right now is 2025-06-09 22:10:20.509003271 UTC
+[INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I won't show repositories that have no PRs
+
+
+=============
+  dhth/omm
+=============
+
+-> checking PR #71
+        allow showing and searching tasks
+        https://github.com/dhth/omm/pull/71
+        [ author ]   "dhth" is not in the list of trusted authors ❌
+
+
+=============
+  dhth/act3
+=============
+
+-> checking PR #22
+        Added x install Support for act3
+        https://github.com/dhth/act3/pull/22
+        [ author ]   "lunrenyi" is not in the list of trusted authors ❌
+
+
+=============
+  dhth/hours
+=============
+
+-> checking PR #44
+        feat: allow time tracking via the CLI
+        https://github.com/dhth/hours/pull/44
+        [ author ]   "dhth" is not in the list of trusted authors ❌
 
 
 =============
@@ -29,33 +60,6 @@
         [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
         [ check  ]   "test" concluded with desired status: "success"
         [ check  ]   "lint" concluded with undesired status: "failure" ❌
-
-
-=============
-  dhth/cueitup
-=============
-
--> checking PR #51
-        chore(deps): bump golangci/golangci-lint-action from 7 to 8
-        https://github.com/dhth/cueitup/pull/51
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint" concluded with undesired status: "failure" ❌
-
-
-=============
-  dhth/act3
-=============
-
--> checking PR #29
-        chore(deps): bump github.com/olekukonko/tablewriter from 0.0.5 to 1.0.6
-        https://github.com/dhth/act3/pull/29
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "build (ubuntu-latest)" concluded with undesired status: "failure" ❌
-
--> checking PR #22
-        Added x install Support for act3
-        https://github.com/dhth/act3/pull/22
-        [ author ]   "lunrenyi" is not in the list of trusted authors ❌
 
 
 =============
@@ -81,39 +85,36 @@
 
 
 =============
-  dhth/hours
+  dhth/kplay
 =============
 
--> checking PR #68
-        chore(deps): bump github.com/olekukonko/tablewriter from 0.0.5 to 1.0.6
-        https://github.com/dhth/hours/pull/68
+-> checking PR #65
+        chore(deps): bump github.com/aws/aws-sdk-go-v2/config from 1.29.14 to 1.29.15
+        https://github.com/dhth/kplay/pull/65
         [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "live" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with undesired status: "failure" ❌
-
--> checking PR #66
-        chore(deps): bump github.com/charmbracelet/bubbles from 0.20.0 to 0.21.0
-        https://github.com/dhth/hours/pull/66
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "live (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "live (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
         [ check  ]   "vulncheck" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with undesired status: "failure" ❌
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
 
--> checking PR #44
-        feat: allow time tracking via the CLI
-        https://github.com/dhth/hours/pull/44
-        [ author ]   "dhth" is not in the list of trusted authors ❌
-
-[INFO] This run ended at 2025-05-30 22:09:21.280339336 UTC; took 1 seconds
+[INFO] This run ended at 2025-06-09 22:10:22.893456991 UTC; took 2 seconds
 
 
 ===========
   SUMMARY
 ===========
 
-# PRs merged          :  0
-# PRs disqualified    :  9
-# Repos checked       :  26
-# Repos with no PRs   :  21
+# PRs merged          :  1
+# PRs disqualified    :  6
+# Repos checked       :  28
+# Repos with no PRs   :  22
 # Errors encountered  :  0
+
+PRs merged
+---
+
+- [dhth/kplay] chore(deps): bump github.com/aws/aws-sdk-go-v2/config from 1.29.14 to 1.29.15
