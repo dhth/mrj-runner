@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 env:
-  MRJ_VERSION: v0.1.0
+  MRJ_VERSION: v0.3.0-alpha.1
 
 jobs:
   run:
@@ -41,7 +41,7 @@ jobs:
           CLICOLOR_FORCE: 1
           COLORTERM: "truecolor"
         run: |
-          mrj run -osi
+          mrj run -eos
       - name: Generate report
         run: |
           mrj report generate
