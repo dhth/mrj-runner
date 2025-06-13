@@ -10,29 +10,9 @@
 
 
 
-[INFO] The time right now is 2025-06-08 21:08:19.637940694 UTC
+[INFO] The time right now is 2025-06-13 21:09:09.932897415 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
-[INFO] I won't show repositories that have no PRs
-
-
-=============
-  dhth/act3
-=============
-
--> checking PR #22
-        Added x install Support for act3
-        https://github.com/dhth/act3/pull/22
-        [ author ]   "lunrenyi" is not in the list of trusted authors ❌
-
-
-=============
-  dhth/omm
-=============
-
--> checking PR #71
-        allow showing and searching tasks
-        https://github.com/dhth/omm/pull/71
-        [ author ]   "dhth" is not in the list of trusted authors ❌
+[INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
 
 
 =============
@@ -42,6 +22,8 @@
 -> checking PR #46
         chore(deps): bump github.com/charmbracelet/bubbles from 0.20.0 to 0.21.0
         https://github.com/dhth/punchout/pull/46
+        Created: Mon, 14 Apr 2025 15:45:36 +0000
+        Updated: Sat, 24 May 2025 10:19:21 +0000
         [ author ]   "dependabot[bot]" is in the list of trusted authors
         [ check  ]   "live (ubuntu-latest)" concluded with desired status: "success"
         [ check  ]   "live (macos-latest)" concluded with desired status: "success"
@@ -53,31 +35,14 @@
 
 
 =============
-  dhth/hours
-=============
-
--> checking PR #66
-        chore(deps): bump github.com/charmbracelet/bubbles from 0.20.0 to 0.21.0
-        https://github.com/dhth/hours/pull/66
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "live (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "live (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with undesired status: "failure" ❌
-
--> checking PR #44
-        feat: allow time tracking via the CLI
-        https://github.com/dhth/hours/pull/44
-        [ author ]   "dhth" is not in the list of trusted authors ❌
-
-
-=============
   dhth/bmm
 =============
 
 -> checking PR #35
         build(deps): bump tui-input from 0.11.1 to 0.12.1
         https://github.com/dhth/bmm/pull/35
+        Created: Sun, 25 May 2025 15:47:34 +0000
+        Updated: Sun, 25 May 2025 22:36:01 +0000
         [ author ]   "dependabot[bot]" is in the list of trusted authors
         [ check  ]   "custom-publish-crates" concluded with desired status: "success"
         [ check  ]   "host" concluded with desired status: "success"
@@ -87,20 +52,15 @@
         [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
         [ check  ]   "lint" concluded with undesired status: "failure" ❌
 
--> checking PR #21
-        feat: allow fetching bookmark title from remote server
-        https://github.com/dhth/bmm/pull/21
-        [ author ]   "dhth" is not in the list of trusted authors ❌
-
-[INFO] This run ended at 2025-06-08 21:08:20.935940335 UTC; took 1 seconds
+[INFO] This run ended at 2025-06-13 21:09:11.345620028 UTC; took 1 seconds
 
 
 ===========
   SUMMARY
 ===========
 
-# PRs merged          :  0
-# PRs disqualified    :  7
-# Repos checked       :  28
-# Repos with no PRs   :  23
-# Errors encountered  :  0
+# PRs merged                  :  0
+# PRs disqualified            :  2
+# Repos checked               :  28
+# Repos with no relevant PRs  :  26
+# Errors encountered          :  0
