@@ -68,7 +68,7 @@ jobs:
       - name: Generate summary
         id: get-summary
         run: |
-          echo "summary=$(cat summary.txt | python -c 'import sys;data = sys.stdin.read().replace("\n", "\\n");print(data)')" >> "$GITHUB_OUTPUT"
+          echo "summary=$(python -c 'import sys;data = sys.stdin.read().replace("\n", "\\n");print(data)' < summary.txt)" >> "$GITHUB_OUTPUT"
       - name: Send notification
         id: send-notification
         if: contains(steps.get-summary.outputs.summary, 'SUMMARY')
