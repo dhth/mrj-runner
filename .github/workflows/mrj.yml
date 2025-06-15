@@ -2,7 +2,7 @@ name: mrj
 
 on:
   schedule:
-    - cron: '0 21,22 * * *'
+    - cron: '0 2 * * *'
   workflow_dispatch:
 
 permissions:
