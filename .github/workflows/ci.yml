@@ -6,6 +6,9 @@ on:
     branches:
       - 'main'
 
+env:
+  MRJ_VERSION: v0.3.0
+
 jobs:
   changes:
     runs-on: ubuntu-latest
