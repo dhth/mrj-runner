@@ -17,6 +17,7 @@ jobs:
       contents: read
     outputs:
       mrj: ${{ steps.filter.outputs.mrj }}
+      sh: ${{ steps.filter.outputs.sh }}
       workflows: ${{ steps.filter.outputs.workflows }}
       yml: ${{ steps.filter.outputs.yml }}
     steps:
@@ -28,6 +29,9 @@ jobs:
           filters: |
             mrj:
               - "mrj.toml"
+              - ".github/workflows/ci.yml"
+            sh:
+              - "**/.sh"
               - ".github/workflows/ci.yml"
             workflows:
               - ".github/workflows/**.yml"
@@ -67,3 +71,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - uses: dhth/composite-actions/.github/actions/lint-actions@main
+
+  lint-sh:
+    needs: changes
+    if: ${{ needs.changes.outputs.sh == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: dhth/composite-actions/.github/actions/lint-sh@main
