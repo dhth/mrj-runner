@@ -1,0 +1,197 @@
+
+                          __
+          ___ ___   _ __ /\_\
+        /' __` __`\/\`'__\/\ \
+        /\ \/\ \/\ \ \ \/ \ \ \
+        \ \_\ \_\ \_\ \_\ _\ \ \
+         \/_/\/_/\/_/\/_//\ \_\ \
+                         \ \____/
+                          \/___/
+
+
+
+[INFO] The time right now is 2025-06-18 02:45:58.516892179 UTC
+[INFO] I'm only looking for PRs where the base branch is "main"
+[INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
+
+
+=============
+  dhth/punchout
+=============
+
+-> checking PR #46
+        chore(deps): bump github.com/charmbracelet/bubbles from 0.20.0 to 0.21.0
+        https://github.com/dhth/punchout/pull/46
+        Created: Mon, 14 Apr 2025 15:45:36 +0000
+        Updated: Sat, 24 May 2025 10:19:21 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "live (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "live (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/bmm
+=============
+
+-> checking PR #35
+        build(deps): bump tui-input from 0.11.1 to 0.12.1
+        https://github.com/dhth/bmm/pull/35
+        Created: Sun, 25 May 2025 15:47:34 +0000
+        Updated: Sun, 25 May 2025 22:36:01 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/ecsv
+=============
+
+-> checking PR #94
+        build: bump github.com/aws/aws-sdk-go-v2/config from 1.29.14 to 1.29.16
+        https://github.com/dhth/ecsv/pull/94
+        Created: Sun, 15 Jun 2025 22:39:44 +0000
+        Updated: Tue, 17 Jun 2025 02:49:46 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/tash
+=============
+
+-> checking PR #12
+        build: bump clap from 4.5.39 to 4.5.40
+        https://github.com/dhth/tash/pull/12
+        Created: Sun, 15 Jun 2025 22:43:57 +0000
+        Updated: Sun, 15 Jun 2025 22:43:58 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/ghx
+=============
+
+-> checking PR #25
+        build: bump reqwest from 0.12.15 to 0.12.18
+        https://github.com/dhth/ghx/pull/25
+        Created: Sun, 15 Jun 2025 22:37:45 +0000
+        Updated: Tue, 17 Jun 2025 03:27:20 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "build-gleam" concluded with desired status: "success"
+        [ check  ]   "preview" concluded with desired status: "success"
+        [ check  ]   "lint-gleam" concluded with desired status: "success"
+        [ check  ]   "build-rust (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build-rust (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-rust" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/outtasync
+=============
+
+-> checking PR #81
+        build: bump github.com/aws/aws-sdk-go-v2/credentials from 1.17.67 to 1.17.69
+        https://github.com/dhth/outtasync/pull/81
+        Created: Sun, 15 Jun 2025 22:42:57 +0000
+        Updated: Tue, 17 Jun 2025 02:49:48 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/ecscope
+=============
+
+-> checking PR #29
+        build: bump tower-http from 0.6.4 to 0.6.6
+        https://github.com/dhth/ecscope/pull/29
+        Created: Sun, 15 Jun 2025 22:36:35 +0000
+        Updated: Tue, 17 Jun 2025 02:50:09 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "test-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "build-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-gleam" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "back-compat" concluded with desired status: "success"
+        [ check  ]   "test-rust (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build-rust (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test-rust (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build-rust (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-rust" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+[INFO] This run ended at 2025-06-18 02:46:00.764114379 UTC; took 2 seconds
+
+
+===========
+  SUMMARY
+===========
+
+# PRs merged                  :  5
+# PRs disqualified            :  2
+# Repos checked               :  28
+# Repos with no relevant PRs  :  21
+# Errors encountered          :  0
+
+PRs merged
+---
+
+- [dhth/ecsv] build: bump github.com/aws/aws-sdk-go-v2/config from 1.29.14 to 1.29.16
+- [dhth/tash] build: bump clap from 4.5.39 to 4.5.40
+- [dhth/ghx] build: bump reqwest from 0.12.15 to 0.12.18
+- [dhth/outtasync] build: bump github.com/aws/aws-sdk-go-v2/credentials from 1.17.67 to 1.17.69
+- [dhth/ecscope] build: bump tower-http from 0.6.4 to 0.6.6
