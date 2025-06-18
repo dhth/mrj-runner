@@ -65,13 +65,18 @@ jobs:
           git add .
           git commit -m "add run-${{ steps.run-number.outputs.number }}"
           git push
+      - name: Check if notification is to be sent
+        id: check-notif
+        run: |
+          echo "send=$(./.github/scripts/should-send-notif.sh)" >> "$GITHUB_OUTPUT"
       - name: Generate summary
         id: get-summary
+        if: steps.check-notif.outputs.send == '1'
         run: |
           echo "summary=$(python -c 'import sys;data = sys.stdin.read().replace("\n", "\\n");print(data)' < summary.txt)" >> "$GITHUB_OUTPUT"
       - name: Send notification
         id: send-notification
-        if: contains(steps.get-summary.outputs.summary, 'SUMMARY')
+        if: steps.check-notif.outputs.send == '1' && contains(steps.get-summary.outputs.summary, 'SUMMARY')
         uses: slackapi/slack-github-action@v1
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
