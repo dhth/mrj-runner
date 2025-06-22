@@ -9,8 +9,7 @@
                           \/___/
 
 
-
-[INFO] The time right now is 2025-06-15 22:09:10.168273414 UTC
+[INFO] The time right now is 2025-06-22 02:50:50.439008359 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
 
@@ -23,15 +22,20 @@
         chore(deps): bump github.com/charmbracelet/bubbles from 0.20.0 to 0.21.0
         https://github.com/dhth/punchout/pull/46
         Created: Mon, 14 Apr 2025 15:45:36 +0000
-        Updated: Sat, 24 May 2025 10:19:21 +0000
+        Updated: Fri, 20 Jun 2025 06:29:09 +0000
         [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "live (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "live (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "live-tests (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "live-tests (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
         [ check  ]   "build (macos-latest)" concluded with desired status: "success"
         [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "test" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with undesired status: "failure" ❌
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ check  ]   ".github/dependabot.yml" concluded with desired status: "success"
+        [ state  ]   "blocked" is undesirable ❌
 
 
 =============
@@ -52,7 +56,7 @@
         [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
         [ check  ]   "lint" concluded with undesired status: "failure" ❌
 
-[INFO] This run ended at 2025-06-15 22:09:11.007077922 UTC; took 0 seconds
+[INFO] This run ended at 2025-06-22 02:50:51.858096363 UTC; took 1 seconds
 
 
 ===========
@@ -64,3 +68,9 @@
 # Repos checked               :  28
 # Repos with no relevant PRs  :  26
 # Errors encountered          :  0
+
+Disqualifications
+---
+
+- https://github.com/dhth/punchout/pull/46        state: blocked
+- https://github.com/dhth/bmm/pull/35             check lint: failure
