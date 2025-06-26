@@ -1,0 +1,156 @@
+
+                          __
+          ___ ___   _ __ /\_\
+        /' __` __`\/\`'__\/\ \
+        /\ \/\ \/\ \ \ \/ \ \ \
+        \ \_\ \_\ \_\ \_\ _\ \ \
+         \/_/\/_/\/_/\/_//\ \_\ \
+                         \ \____/
+                          \/___/
+
+
+[INFO] The time right now is 2025-06-26 02:43:24.835960378 UTC
+[INFO] I'm only looking for PRs where the base branch is "main"
+[INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
+
+
+=============
+  dhth/punchout
+=============
+
+-> checking PR #46
+        chore(deps): bump github.com/charmbracelet/bubbles from 0.20.0 to 0.21.0
+        https://github.com/dhth/punchout/pull/46
+        Created: Mon, 14 Apr 2025 15:45:36 +0000
+        Updated: Fri, 20 Jun 2025 06:29:09 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "live-tests (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "live-tests (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ check  ]   ".github/dependabot.yml" concluded with desired status: "success"
+        [ state  ]   "unknown" is undesirable ❌
+
+
+=============
+  dhth/bmm
+=============
+
+-> checking PR #35
+        build(deps): bump tui-input from 0.11.1 to 0.12.1
+        https://github.com/dhth/bmm/pull/35
+        Created: Sun, 25 May 2025 15:47:34 +0000
+        Updated: Sun, 25 May 2025 22:36:01 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/ecsv
+=============
+
+-> checking PR #97
+        build: bump github.com/aws/aws-sdk-go-v2/config from 1.29.16 to 1.29.17
+        https://github.com/dhth/ecsv/pull/97
+        Created: Wed, 25 Jun 2025 08:30:16 +0000
+        Updated: Wed, 25 Jun 2025 08:30:17 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/cueitup
+=============
+
+-> checking PR #57
+        build: bump github.com/aws/aws-sdk-go-v2 from 1.36.3 to 1.36.5
+        https://github.com/dhth/cueitup/pull/57
+        Created: Wed, 25 Jun 2025 06:30:06 +0000
+        Updated: Wed, 25 Jun 2025 06:30:07 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "build-gleam" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "test-go (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test-go (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-go" concluded with desired status: "success"
+        [ check  ]   "build-go (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build-go (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/outtasync
+=============
+
+-> checking PR #84
+        build: bump github.com/aws/aws-sdk-go-v2/service/cloudformation from 1.60.2 to 1.60.3
+        https://github.com/dhth/outtasync/pull/84
+        Created: Wed, 25 Jun 2025 16:50:43 +0000
+        Updated: Wed, 25 Jun 2025 16:50:44 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+[INFO] This run ended at 2025-06-26 02:43:27.590402776 UTC; took 2 seconds
+
+
+===========
+  SUMMARY
+===========
+
+# PRs merged                  :  3
+# PRs disqualified            :  2
+# Repos checked               :  28
+# Repos with no relevant PRs  :  23
+# Errors encountered          :  0
+
+PRs merged
+---
+
+- [dhth/ecsv] build: bump github.com/aws/aws-sdk-go-v2/config from 1.29.16 to 1.29.17
+- [dhth/cueitup] build: bump github.com/aws/aws-sdk-go-v2 from 1.36.3 to 1.36.5
+- [dhth/outtasync] build: bump github.com/aws/aws-sdk-go-v2/service/cloudformation from 1.60.2 to 1.60.3
+
+Disqualifications
+---
+
+- https://github.com/dhth/punchout/pull/46        state: unknown
+- https://github.com/dhth/bmm/pull/35             check lint: failure
