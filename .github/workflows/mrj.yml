@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Generate GH token
         id: generate-token
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@v2
         with:
           app-id: ${{ secrets.MRJ_APP_ID }}
           private-key: ${{ secrets.MRJ_APP_PRIVATE_KEY }}
