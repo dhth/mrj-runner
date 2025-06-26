@@ -29,4 +29,34 @@ jobs:
           CLICOLOR_FORCE: 1
           COLORTERM: "truecolor"
         run: |
-          mrj run
+          mrj run -s
+      - name: Generate summary
+        id: get-summary
+        run: |
+          echo "summary=$(python -c 'import sys;data = sys.stdin.read().replace("\n", "\\n");print(data)' < summary.txt)" >> "$GITHUB_OUTPUT"
+      - name: Send notification test
+        uses: slackapi/slack-github-action@v2
+        with:
+          method: chat.postMessage
+          token: ${{ secrets.SLACK_BOT_TOKEN }}
+          payload: |
+            {
+              "channel": ${{ secrets.SLACK_CHANNEL_ID }},
+              "text": "[TEST] mrj run just concluded",
+              "blocks": [
+                {
+                  "type": "rich_text",
+                  "elements": [
+                    {
+                      "type": "rich_text_preformatted",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "[TEST] mrj run just concluded\n\n${{ steps.get-summary.outputs.summary }}"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
