@@ -9,7 +9,7 @@
                           \/___/
 
 
-[INFO] The time right now is 2025-06-22 02:50:50.439008359 UTC
+[INFO] The time right now is 2025-06-28 23:11:22.300361139 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
 
@@ -46,7 +46,7 @@
         build(deps): bump tui-input from 0.11.1 to 0.12.1
         https://github.com/dhth/bmm/pull/35
         Created: Sun, 25 May 2025 15:47:34 +0000
-        Updated: Sun, 25 May 2025 22:36:01 +0000
+        Updated: Sat, 28 Jun 2025 10:52:21 +0000
         [ author ]   "dependabot[bot]" is in the list of trusted authors
         [ check  ]   "custom-publish-crates" concluded with desired status: "success"
         [ check  ]   "host" concluded with desired status: "success"
@@ -56,18 +56,50 @@
         [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
         [ check  ]   "lint" concluded with undesired status: "failure" ❌
 
-[INFO] This run ended at 2025-06-22 02:50:51.858096363 UTC; took 1 seconds
+-> checking PR #44
+        build: bump clap from 4.5.39 to 4.5.40
+        https://github.com/dhth/bmm/pull/44
+        Created: Sat, 28 Jun 2025 10:53:32 +0000
+        Updated: Sat, 28 Jun 2025 11:20:22 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint-sh" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "back-compat" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
 
+[INFO] This run ended at 2025-06-28 23:11:25.284757431 UTC; took 2 seconds
 
 ===========
   SUMMARY
 ===========
 
-# PRs merged                  :  0
-# PRs disqualified            :  2
-# Repos checked               :  28
-# Repos with no relevant PRs  :  26
-# Errors encountered          :  0
+- PRs merged:                    1
+- PRs disqualified:              2
+- Repos checked:                 28
+- Repos with no relevant PRs:    26
+- Errors encountered:            0
+
+PRs merged
+---
+
+- [dhth/bmm] build: bump clap from 4.5.39 to 4.5.40
 
 Disqualifications
 ---
