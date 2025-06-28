@@ -1,0 +1,159 @@
+
+                          __
+          ___ ___   _ __ /\_\
+        /' __` __`\/\`'__\/\ \
+        /\ \/\ \/\ \ \ \/ \ \ \
+        \ \_\ \_\ \_\ \_\ _\ \ \
+         \/_/\/_/\/_/\/_//\ \_\ \
+                         \ \____/
+                          \/___/
+
+
+[INFO] The time right now is 2025-06-28 22:10:37.441219204 UTC
+[INFO] I'm only looking for PRs where the base branch is "main"
+[INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
+
+
+=============
+  dhth/punchout
+=============
+
+-> checking PR #46
+        chore(deps): bump github.com/charmbracelet/bubbles from 0.20.0 to 0.21.0
+        https://github.com/dhth/punchout/pull/46
+        Created: Mon, 14 Apr 2025 15:45:36 +0000
+        Updated: Fri, 20 Jun 2025 06:29:09 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "live-tests (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "live-tests (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ check  ]   ".github/dependabot.yml" concluded with desired status: "success"
+        [ state  ]   "blocked" is undesirable ❌
+
+
+=============
+  dhth/bmm
+=============
+
+-> checking PR #35
+        build(deps): bump tui-input from 0.11.1 to 0.12.1
+        https://github.com/dhth/bmm/pull/35
+        Created: Sun, 25 May 2025 15:47:34 +0000
+        Updated: Sat, 28 Jun 2025 10:52:21 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with undesired status: "failure" ❌
+
+-> checking PR #43
+        build: bump which from 7.0.3 to 8.0.0
+        https://github.com/dhth/bmm/pull/43
+        Created: Sat, 28 Jun 2025 10:53:19 +0000
+        Updated: Sat, 28 Jun 2025 11:21:57 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "lint-sh" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "back-compat" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ state  ]   "unknown" is undesirable ❌
+
+-> checking PR #44
+        build: bump clap from 4.5.39 to 4.5.40
+        https://github.com/dhth/bmm/pull/44
+        Created: Sat, 28 Jun 2025 10:53:32 +0000
+        Updated: Sat, 28 Jun 2025 11:20:22 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint-sh" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "back-compat" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "unknown" is undesirable ❌
+
+-> checking PR #45
+        build: bump arboard from 3.5.0 to 3.6.0
+        https://github.com/dhth/bmm/pull/45
+        Created: Sat, 28 Jun 2025 10:53:42 +0000
+        Updated: Sat, 28 Jun 2025 11:21:48 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-sh" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "back-compat" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ state  ]   "unknown" is undesirable ❌
+
+[INFO] This run ended at 2025-06-28 22:10:40.019903790 UTC; took 2 seconds
+
+===========
+  SUMMARY
+===========
+
+- PRs merged:                    0
+- PRs disqualified:              5
+- Repos checked:                 28
+- Repos with no relevant PRs:    26
+- Errors encountered:            0
+
+Disqualifications
+---
+
+- https://github.com/dhth/punchout/pull/46        state: blocked
+- https://github.com/dhth/bmm/pull/35             check lint: failure
+- https://github.com/dhth/bmm/pull/43             state: unknown
+- https://github.com/dhth/bmm/pull/44             state: unknown
+- https://github.com/dhth/bmm/pull/45             state: unknown
