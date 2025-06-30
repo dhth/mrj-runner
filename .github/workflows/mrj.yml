@@ -77,13 +77,14 @@ jobs:
       - name: Send notification
         id: send-notification
         if: steps.check-notif.outputs.send == '1' && contains(steps.get-summary.outputs.summary, 'SUMMARY')
-        uses: slackapi/slack-github-action@v1
-        env:
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+        uses: slackapi/slack-github-action@v2
         with:
-          channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
+          method: chat.postMessage
+          token: ${{ secrets.SLACK_BOT_TOKEN }}
           payload: |
             {
+              "channel": ${{ secrets.SLACK_CHANNEL_ID }},
+              "text": "mrj run just concluded",
               "blocks": [
                 {
                   "type": "rich_text",
