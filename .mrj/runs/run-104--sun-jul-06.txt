@@ -9,9 +9,28 @@
                           \/___/
 
 
-[INFO] The time right now is 2025-07-03 23:11:44.732874793 UTC
+[INFO] The time right now is 2025-07-06 22:12:06.967836084 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
+
+
+=============
+  dhth/bmm
+=============
+
+-> checking PR #35
+        build(deps): bump tui-input from 0.11.1 to 0.12.1
+        https://github.com/dhth/bmm/pull/35
+        Created: Sun, 25 May 2025 15:47:34 +0000
+        Updated: Sat, 28 Jun 2025 10:52:21 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with undesired status: "failure" ❌
 
 
 =============
@@ -39,25 +58,6 @@
 
 
 =============
-  dhth/bmm
-=============
-
--> checking PR #35
-        build(deps): bump tui-input from 0.11.1 to 0.12.1
-        https://github.com/dhth/bmm/pull/35
-        Created: Sun, 25 May 2025 15:47:34 +0000
-        Updated: Sat, 28 Jun 2025 10:52:21 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
-        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
-        [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
-        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with undesired status: "failure" ❌
-
-
-=============
   dhth/zero2prod
 =============
 
@@ -65,30 +65,22 @@
         chore(deps): bump secrecy from 0.8.0 to 0.10.3
         https://github.com/dhth/zero2prod/pull/9
         Created: Tue, 1 Jul 2025 18:34:00 +0000
-        Updated: Thu, 3 Jul 2025 21:31:43 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "build" concluded with undesired status: "failure" ❌
-
--> checking PR #12
-        chore(deps): bump reqwest from 0.12.18 to 0.12.22
-        https://github.com/dhth/zero2prod/pull/12
-        Created: Tue, 1 Jul 2025 18:34:31 +0000
-        Updated: Thu, 3 Jul 2025 21:31:14 +0000
+        Updated: Sun, 6 Jul 2025 09:02:25 +0000
         [ author ]   "dependabot[bot]" is in the list of trusted authors
         [ check  ]   "build" concluded with desired status: "success"
-        [ check  ]   "test" concluded with desired status: "success"
         [ check  ]   "fmt-and-clippy" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
         [ state  ]   "clean" is desirable
         PR merged! 🎉 ✅
 
-[INFO] This run ended at 2025-07-03 23:11:47.414365177 UTC; took 2 seconds
+[INFO] This run ended at 2025-07-06 22:12:08.780719899 UTC; took 1 seconds
 
 ===========
   SUMMARY
 ===========
 
 - PRs merged:                    1
-- PRs disqualified:              3
+- PRs disqualified:              2
 - Repos checked:                 28
 - Repos with no relevant PRs:    25
 - Errors encountered:            0
@@ -96,11 +88,10 @@
 PRs merged
 ---
 
-- [dhth/zero2prod] chore(deps): bump reqwest from 0.12.18 to 0.12.22
+- [dhth/zero2prod] chore(deps): bump secrecy from 0.8.0 to 0.10.3
 
 Disqualifications
 ---
 
-- https://github.com/dhth/punchout/pull/46        state: blocked
 - https://github.com/dhth/bmm/pull/35             check lint: failure
-- https://github.com/dhth/zero2prod/pull/9        check build: failure
+- https://github.com/dhth/punchout/pull/46        state: blocked
