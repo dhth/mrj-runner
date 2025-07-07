@@ -5,6 +5,7 @@ repos = [
     "dhth/commits",
     "dhth/cueitup",
     "dhth/ddiff",
+    "dhth/dfft",
     "dhth/dstll",
     "dhth/ecscope",
     "dhth/ecsv",
