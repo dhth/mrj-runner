@@ -1,0 +1,516 @@
+
+                          __
+          ___ ___   _ __ /\_\
+        /' __` __`\/\`'__\/\ \
+        /\ \/\ \/\ \ \ \/ \ \ \
+        \ \_\ \_\ \_\ \_\ _\ \ \
+         \/_/\/_/\/_/\/_//\ \_\ \
+                         \ \____/
+                          \/___/
+
+
+[INFO] The time right now is 2025-07-14 22:12:03.966439038 UTC
+[INFO] I'm only looking for PRs where the base branch is "main"
+[INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
+
+
+=============
+  dhth/dfft
+=============
+
+-> checking PR #17
+        ci: bump taiki-e/install-action from 2.56.7 to 2.56.13
+        https://github.com/dhth/dfft/pull/17
+        Created: Mon, 14 Jul 2025 03:03:25 +0000
+        Updated: Mon, 14 Jul 2025 03:03:48 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "unknown" is undesirable ❌
+
+
+=============
+  dhth/shfl
+=============
+
+-> checking PR #23
+        build: bump clap from 4.5.40 to 4.5.41
+        https://github.com/dhth/shfl/pull/23
+        Created: Mon, 14 Jul 2025 12:08:46 +0000
+        Updated: Mon, 14 Jul 2025 12:08:47 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/dstll
+=============
+
+-> checking PR #28
+        build: bump github.com/charmbracelet/bubbletea from 1.3.5 to 1.3.6
+        https://github.com/dhth/dstll/pull/28
+        Created: Mon, 14 Jul 2025 06:18:05 +0000
+        Updated: Mon, 14 Jul 2025 06:18:31 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "run (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "run (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/tash
+=============
+
+-> checking PR #20
+        build: bump clap from 4.5.40 to 4.5.41
+        https://github.com/dhth/tash/pull/20
+        Created: Mon, 14 Jul 2025 21:37:48 +0000
+        Updated: Mon, 14 Jul 2025 21:37:49 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/squidge
+=============
+
+-> checking PR #33
+        ci: bump taiki-e/install-action from 2.56.7 to 2.56.13
+        https://github.com/dhth/squidge/pull/33
+        Created: Mon, 14 Jul 2025 17:28:47 +0000
+        Updated: Mon, 14 Jul 2025 17:29:12 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "custom-release-packages" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/commits
+=============
+
+-> checking PR #19
+        build: bump github.com/charmbracelet/bubbletea from 1.3.5 to 1.3.6
+        https://github.com/dhth/commits/pull/19
+        Created: Mon, 14 Jul 2025 09:29:42 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/kplay
+=============
+
+-> checking PR #71
+        build: bump github.com/charmbracelet/bubbletea from 1.3.5 to 1.3.6
+        https://github.com/dhth/kplay/pull/71
+        Created: Mon, 14 Jul 2025 19:05:08 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "build-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test-go (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test-go (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build-go (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build-go (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "lint-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-go" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/urll
+=============
+
+-> checking PR #17
+        build: bump clap from 4.5.40 to 4.5.41
+        https://github.com/dhth/urll/pull/17
+        Created: Mon, 14 Jul 2025 17:33:40 +0000
+        Updated: Mon, 14 Jul 2025 17:34:03 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/tomo
+=============
+
+-> checking PR #45
+        ci: bump taiki-e/install-action from 2.56.7 to 2.56.13
+        https://github.com/dhth/tomo/pull/45
+        Created: Mon, 14 Jul 2025 21:55:30 +0000
+        Updated: Mon, 14 Jul 2025 21:55:31 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "custom-release-packages" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/tbll
+=============
+
+-> checking PR #41
+        build: bump clap from 4.5.40 to 4.5.41
+        https://github.com/dhth/tbll/pull/41
+        Created: Mon, 14 Jul 2025 11:41:29 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-release-packages" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/squish
+=============
+
+-> checking PR #32
+        ci: bump taiki-e/install-action from 2.56.7 to 2.56.13
+        https://github.com/dhth/squish/pull/32
+        Created: Mon, 14 Jul 2025 18:27:58 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/omm
+=============
+
+-> checking PR #77
+        build: bump github.com/charmbracelet/bubbletea from 1.3.5 to 1.3.6
+        https://github.com/dhth/omm/pull/77
+        Created: Mon, 14 Jul 2025 09:14:41 +0000
+        Updated: Mon, 14 Jul 2025 09:14:42 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "back-compat (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "back-compat (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/outtasync
+=============
+
+-> checking PR #86
+        build: bump github.com/charmbracelet/bubbletea from 1.3.5 to 1.3.6
+        https://github.com/dhth/outtasync/pull/86
+        Created: Mon, 14 Jul 2025 02:35:15 +0000
+        Updated: Mon, 14 Jul 2025 02:35:16 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/hours
+=============
+
+-> checking PR #76
+        build: bump github.com/charmbracelet/bubbletea from 1.3.5 to 1.3.6
+        https://github.com/dhth/hours/pull/76
+        Created: Mon, 14 Jul 2025 06:12:52 +0000
+        Updated: Mon, 14 Jul 2025 06:12:53 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "live-tests (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "live-tests (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "back-compat (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "back-compat (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/ecscope
+=============
+
+-> checking PR #37
+        build: bump toml from 0.8.23 to 0.9.2
+        https://github.com/dhth/ecscope/pull/37
+        Created: Mon, 14 Jul 2025 01:46:37 +0000
+        Updated: Mon, 14 Jul 2025 01:46:58 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test-gleam" concluded with desired status: "success"
+        [ check  ]   "build-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "build-rust (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "build-rust (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "back-compat" concluded with desired status: "success"
+        [ check  ]   "test-rust (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test-rust (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "lint-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-rust" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/bmm
+=============
+
+-> checking PR #53
+        ci: bump taiki-e/install-action from 2.56.7 to 2.56.13
+        https://github.com/dhth/bmm/pull/53
+        Created: Mon, 14 Jul 2025 17:10:20 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-sh" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "back-compat" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/punchout
+=============
+
+-> checking PR #46
+        chore(deps): bump github.com/charmbracelet/bubbles from 0.20.0 to 0.21.0
+        https://github.com/dhth/punchout/pull/46
+        Created: Mon, 14 Apr 2025 15:45:36 +0000
+        Updated: Fri, 20 Jun 2025 06:29:09 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "live-tests (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "live-tests (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ check  ]   ".github/dependabot.yml" concluded with desired status: "success"
+        [ state  ]   "blocked" is undesirable ❌
+
+-> checking PR #52
+        build: bump github.com/charmbracelet/bubbletea from 1.3.5 to 1.3.6
+        https://github.com/dhth/punchout/pull/52
+        Created: Mon, 14 Jul 2025 19:10:34 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "live-tests (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "live-tests (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+[INFO] This run ended at 2025-07-14 22:12:07.267411069 UTC; took 3 seconds
+
+===========
+  SUMMARY
+===========
+
+- PRs merged:                    15
+- PRs disqualified:              3
+- Repos checked:                 29
+- Repos with no relevant PRs:    12
+- Errors encountered:            0
+
+PRs merged
+---
+
+- [dhth/dstll] build: bump github.com/charmbracelet/bubbletea from 1.3.5 to 1.3.6
+- [dhth/tash] build: bump clap from 4.5.40 to 4.5.41
+- [dhth/squidge] ci: bump taiki-e/install-action from 2.56.7 to 2.56.13
+- [dhth/commits] build: bump github.com/charmbracelet/bubbletea from 1.3.5 to 1.3.6
+- [dhth/kplay] build: bump github.com/charmbracelet/bubbletea from 1.3.5 to 1.3.6
+- [dhth/urll] build: bump clap from 4.5.40 to 4.5.41
+- [dhth/tomo] ci: bump taiki-e/install-action from 2.56.7 to 2.56.13
+- [dhth/tbll] build: bump clap from 4.5.40 to 4.5.41
+- [dhth/squish] ci: bump taiki-e/install-action from 2.56.7 to 2.56.13
+- [dhth/omm] build: bump github.com/charmbracelet/bubbletea from 1.3.5 to 1.3.6
+- [dhth/outtasync] build: bump github.com/charmbracelet/bubbletea from 1.3.5 to 1.3.6
+- [dhth/hours] build: bump github.com/charmbracelet/bubbletea from 1.3.5 to 1.3.6
+- [dhth/ecscope] build: bump toml from 0.8.23 to 0.9.2
+- [dhth/bmm] ci: bump taiki-e/install-action from 2.56.7 to 2.56.13
+- [dhth/punchout] build: bump github.com/charmbracelet/bubbletea from 1.3.5 to 1.3.6
+
+Disqualifications
+---
+
+- https://github.com/dhth/dfft/pull/17            state: unknown
+- https://github.com/dhth/shfl/pull/23            check lint: failure
+- https://github.com/dhth/punchout/pull/46        state: blocked
