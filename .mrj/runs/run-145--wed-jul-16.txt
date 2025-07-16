@@ -9,7 +9,7 @@
                           \/___/
 
 
-[INFO] The time right now is 2025-07-13 23:38:29.199590283 UTC
+[INFO] The time right now is 2025-07-16 22:44:09.816976875 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
 
@@ -35,9 +35,9 @@
         [ check  ]   "lint" concluded with desired status: "success"
         [ check  ]   "changes" concluded with desired status: "success"
         [ check  ]   ".github/dependabot.yml" concluded with desired status: "success"
-        [ state  ]   "blocked" is undesirable ❌
+        [ state  ]   "dirty" is undesirable ❌
 
-[INFO] This run ended at 2025-07-13 23:38:30.035851442 UTC; took 0 seconds
+[INFO] This run ended at 2025-07-16 22:44:10.474470734 UTC; took 0 seconds
 
 ===========
   SUMMARY
@@ -52,4 +52,4 @@
 Disqualifications
 ---
 
-- https://github.com/dhth/punchout/pull/46        state: blocked
+- https://github.com/dhth/punchout/pull/46        state: dirty
