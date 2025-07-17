@@ -9,7 +9,7 @@
                           \/___/
 
 
-[INFO] The time right now is 2025-07-15 22:12:39.610189445 UTC
+[INFO] The time right now is 2025-07-17 23:12:54.111606563 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
 
@@ -37,46 +37,17 @@
         [ check  ]   ".github/dependabot.yml" concluded with desired status: "success"
         [ state  ]   "dirty" is undesirable ❌
 
-
-=============
-  dhth/shfl
-=============
-
--> checking PR #23
-        build: bump clap from 4.5.40 to 4.5.41
-        https://github.com/dhth/shfl/pull/23
-        Created: Mon, 14 Jul 2025 12:08:46 +0000
-        Updated: Tue, 15 Jul 2025 19:29:21 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "release-check" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        PR merged! 🎉 ✅
-
-[INFO] This run ended at 2025-07-15 22:12:42.255764842 UTC; took 2 seconds
+[INFO] This run ended at 2025-07-17 23:12:54.773277315 UTC; took 0 seconds
 
 ===========
   SUMMARY
 ===========
 
-- PRs merged:                    1
+- PRs merged:                    0
 - PRs disqualified:              1
 - Repos checked:                 29
-- Repos with no relevant PRs:    27
+- Repos with no relevant PRs:    28
 - Errors encountered:            0
-
-PRs merged
----
-
-- [dhth/shfl] build: bump clap from 4.5.40 to 4.5.41
 
 Disqualifications
 ---
