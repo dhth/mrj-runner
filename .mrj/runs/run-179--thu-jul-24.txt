@@ -9,7 +9,7 @@
                           \/___/
 
 
-[INFO] The time right now is 2025-07-22 22:42:10.129495266 UTC
+[INFO] The time right now is 2025-07-24 23:39:16.281730297 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
 
@@ -34,45 +34,17 @@
         [ check  ]   "lint-workflows" concluded with desired status: "success"
         [ check  ]   "test-macos-latest-default" concluded with undesired status: "failure" ❌
 
-
-=============
-  dhth/outtasync
-=============
-
--> checking PR #91
-        build: bump github.com/aws/aws-sdk-go-v2/service/cloudformation from 1.61.0 to 1.61.1
-        https://github.com/dhth/outtasync/pull/91
-        Created: Mon, 21 Jul 2025 02:56:21 +0000
-        Updated: Tue, 22 Jul 2025 22:14:18 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "release-check" concluded with desired status: "success"
-        [ check  ]   "test" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        PR merged! 🎉 ✅
-
-[INFO] This run ended at 2025-07-22 22:42:12.052733363 UTC; took 1 seconds
+[INFO] This run ended at 2025-07-24 23:39:17.357838998 UTC; took 1 seconds
 
 ===========
   SUMMARY
 ===========
 
-- PRs merged:                    1
+- PRs merged:                    0
 - PRs disqualified:              1
 - Repos checked:                 29
-- Repos with no relevant PRs:    27
+- Repos with no relevant PRs:    28
 - Errors encountered:            0
-
-PRs merged
----
-
-- [dhth/outtasync] build: bump github.com/aws/aws-sdk-go-v2/service/cloudformation from 1.61.0 to 1.61.1
 
 Disqualifications
 ---
