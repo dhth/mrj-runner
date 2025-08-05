@@ -1,0 +1,207 @@
+
+                          __
+          ___ ___   _ __ /\_\
+        /' __` __`\/\`'__\/\ \
+        /\ \/\ \/\ \ \ \/ \ \ \
+        \ \_\ \_\ \_\ \_\ _\ \ \
+         \/_/\/_/\/_/\/_//\ \_\ \
+                         \ \____/
+                          \/___/
+
+
+[INFO] The time right now is 2025-08-05 22:44:36.353292330 UTC
+[INFO] I'm only looking for PRs where the base branch is "main"
+[INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
+
+
+=============
+  dhth/tash
+=============
+
+-> checking PR #25
+        ci: bump taiki-e/install-action from 2.57.1 to 2.57.6
+        https://github.com/dhth/tash/pull/25
+        Created: Tue, 5 Aug 2025 00:03:22 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "unknown" is undesirable ❌
+
+
+=============
+  dhth/ecsv
+=============
+
+-> checking PR #108
+        build: bump github.com/aws/aws-sdk-go-v2/config from 1.29.18 to 1.30.2
+        https://github.com/dhth/ecsv/pull/108
+        Created: Mon, 4 Aug 2025 16:29:00 +0000
+        Updated: Tue, 5 Aug 2025 22:17:51 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/outtasync
+=============
+
+-> checking PR #95
+        build: bump github.com/aws/aws-sdk-go-v2/config from 1.29.18 to 1.30.2
+        https://github.com/dhth/outtasync/pull/95
+        Created: Mon, 4 Aug 2025 02:46:47 +0000
+        Updated: Tue, 5 Aug 2025 22:18:09 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/cueitup
+=============
+
+-> checking PR #65
+        build: bump github.com/aws/aws-sdk-go-v2/config from 1.30.1 to 1.30.3
+        https://github.com/dhth/cueitup/pull/65
+        Created: Tue, 5 Aug 2025 07:01:54 +0000
+        Updated: Tue, 5 Aug 2025 22:16:18 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-gleam" concluded with desired status: "success"
+        [ check  ]   "build-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "test-go (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test-go (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build-go (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build-go (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-go" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/dfft
+=============
+
+-> checking PR #42
+        build: bump tokio from 1.47.0 to 1.47.1
+        https://github.com/dhth/dfft/pull/42
+        Created: Mon, 4 Aug 2025 04:04:14 +0000
+        Updated: Mon, 4 Aug 2025 23:42:48 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test-ubuntu-latest-no-sound" concluded with desired status: "success"
+        [ check  ]   "publish-check" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "test-macos-latest-default" concluded with desired status: "success"
+        [ check  ]   "build-macos-latest-default" concluded with desired status: "success"
+        [ check  ]   "test-macos-latest-no-sound" concluded with desired status: "success"
+        [ check  ]   "test-ubuntu-latest-default" concluded with desired status: "success"
+        [ check  ]   "build-ubuntu-latest-no-sound" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "build-macos-latest-no-sound" concluded with desired status: "success"
+        [ check  ]   "lint-default" concluded with desired status: "success"
+        [ check  ]   "lint-no-sound" concluded with desired status: "success"
+        [ check  ]   "build-ubuntu-latest-default" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/ecscope
+=============
+
+-> checking PR #51
+        ci: bump taiki-e/install-action from 2.57.1 to 2.57.6
+        https://github.com/dhth/ecscope/pull/51
+        Created: Mon, 4 Aug 2025 02:24:39 +0000
+        Updated: Tue, 5 Aug 2025 22:18:41 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "test-rust (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "test-rust (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build-gleam" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test-gleam" concluded with desired status: "success"
+        [ check  ]   "back-compat" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "build-rust (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "publish-check" concluded with desired status: "success"
+        [ check  ]   "build-rust (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-rust" concluded with desired status: "success"
+        [ check  ]   "lint-gleam" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+[INFO] This run ended at 2025-08-05 22:44:38.715344909 UTC; took 2 seconds
+
+===========
+  SUMMARY
+===========
+
+- PRs merged:                    5
+- PRs disqualified:              1
+- Repos checked:                 31
+- Repos with no relevant PRs:    25
+- Errors encountered:            0
+
+PRs merged
+---
+
+- [dhth/ecsv] build: bump github.com/aws/aws-sdk-go-v2/config from 1.29.18 to 1.30.2
+- [dhth/outtasync] build: bump github.com/aws/aws-sdk-go-v2/config from 1.29.18 to 1.30.2
+- [dhth/cueitup] build: bump github.com/aws/aws-sdk-go-v2/config from 1.30.1 to 1.30.3
+- [dhth/dfft] build: bump tokio from 1.47.0 to 1.47.1
+- [dhth/ecscope] ci: bump taiki-e/install-action from 2.57.1 to 2.57.6
+
+Disqualifications
+---
+
+- https://github.com/dhth/tash/pull/25        state: unknown
