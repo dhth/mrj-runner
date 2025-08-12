@@ -44,7 +44,7 @@ jobs:
           mrj run -eos
       - name: Generate report
         run: |
-          mrj report generate
+          mrj report generate -n 20
       - name: Get run number
         id: run-number
         run: echo "number=$(cat ./.mrj/last-run.txt)" >> "$GITHUB_OUTPUT"

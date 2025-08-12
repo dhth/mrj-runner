@@ -1,5 +1,7 @@
 repos = [
+    "dhth/act3-runner",
     "dhth/act3",
+    "dhth/agent1",
     "dhth/bmm",
     "dhth/chronotes",
     "dhth/commits",
@@ -13,6 +15,7 @@ repos = [
     "dhth/graphc",
     "dhth/hours",
     "dhth/kplay",
+    "dhth/mrj-runner",
     "dhth/mrj",
     "dhth/mult",
     "dhth/omm",
