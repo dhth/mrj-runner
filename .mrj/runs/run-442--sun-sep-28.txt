@@ -9,38 +9,9 @@
                           \/___/
 
 
-[INFO] The time right now is 2025-09-23 23:33:22.078508083 UTC
+[INFO] The time right now is 2025-09-28 23:33:23.260351428 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
-
-
-=============
-  dhth/tbll
-=============
-
--> checking PR #63
-        build: bump anyhow from 1.0.99 to 1.0.100
-        https://github.com/dhth/tbll/pull/63
-        Created: Fri, 19 Sep 2025 22:56:39 +0000
-        Updated: Tue, 23 Sep 2025 15:21:58 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "custom-release-packages" concluded with desired status: "success"
-        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
-        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
-        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ check  ]   "plan" concluded with desired status: "success"
-        [ state  ]   "dirty" is undesirable ❌
 
 
 =============
@@ -135,22 +106,21 @@
         [ check  ]   "changes" concluded with desired status: "success"
         [ state  ]   "dirty" is undesirable ❌
 
-[INFO] This run ended at 2025-09-23 23:33:23.694619234 UTC; took 1 seconds
+[INFO] This run ended at 2025-09-28 23:33:25.222904336 UTC; took 1 seconds
 
 ===========
   SUMMARY
 ===========
 
 - PRs merged:                    0
-- PRs disqualified:              4
+- PRs disqualified:              3
 - Repos checked:                 34
-- Repos with no relevant PRs:    31
+- Repos with no relevant PRs:    32
 - Errors encountered:            0
 
 Disqualifications
 ---
 
-- https://github.com/dhth/tbll/pull/63        state: dirty
 - https://github.com/dhth/dfft/pull/68        state: dirty
 - https://github.com/dhth/ting/pull/34        state: dirty
 - https://github.com/dhth/ting/pull/36        state: dirty
