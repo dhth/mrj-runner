@@ -1,0 +1,52 @@
+
+                          __
+          ___ ___   _ __ /\_\
+        /' __` __`\/\`'__\/\ \
+        /\ \/\ \/\ \ \ \/ \ \ \
+        \ \_\ \_\ \_\ \_\ _\ \ \
+         \/_/\/_/\/_/\/_//\ \_\ \
+                         \ \____/
+                          \/___/
+
+
+[INFO] The time right now is 2025-10-06 22:36:14.836156258 UTC
+[INFO] I'm only looking for PRs where the base branch is "main"
+[INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
+
+
+=============
+  dhth/atls
+=============
+
+-> checking PR #8
+        build: bump anyhow from 1.0.99 to 1.0.100
+        https://github.com/dhth/atls/pull/8
+        Created: Fri, 19 Sep 2025 22:50:03 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+[INFO] This run ended at 2025-10-06 22:36:17.675857377 UTC; took 2 seconds
+
+===========
+  SUMMARY
+===========
+
+- PRs merged:                    1
+- PRs disqualified:              0
+- Repos checked:                 36
+- Repos with no relevant PRs:    35
+- Errors encountered:            0
+
+PRs merged
+---
+
+- [dhth/atls] build: bump anyhow from 1.0.99 to 1.0.100
