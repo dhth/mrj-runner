@@ -1,7 +1,9 @@
 repos = [
     "dhth/act3-runner",
     "dhth/act3",
+    "dhth/agent0",
     "dhth/agent1",
+    "dhth/atls",
     "dhth/bmm",
     "dhth/chronotes",
     "dhth/commits",
