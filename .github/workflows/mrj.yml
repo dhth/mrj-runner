@@ -2,7 +2,10 @@ name: mrj
 
 on:
   schedule:
-    - cron: '0,30 22,23 * * *'
+    # Runs 4 times per day on days 1–5 of every month
+    - cron: '0,30 22,23 1-5 * *'
+    # Runs 4 times per day on every 5th day of the month (starting from the 10th)
+    - cron: '0,30 22,23 10-31/5 * *'
   workflow_dispatch:
 
 permissions:
