@@ -1,0 +1,132 @@
+
+                          __
+          ___ ___   _ __ /\_\
+        /' __` __`\/\`'__\/\ \
+        /\ \/\ \/\ \ \ \/ \ \ \
+        \ \_\ \_\ \_\ \_\ _\ \ \
+         \/_/\/_/\/_/\/_//\ \_\ \
+                         \ \____/
+                          \/___/
+
+
+[INFO] The time right now is 2025-11-05 23:08:03.571093726 UTC
+[INFO] I'm only looking for PRs where the base branch is "main"
+[INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
+
+
+=============
+  dhth/agent0
+=============
+
+-> checking PR #19
+        build: bump google.golang.org/genai from 1.32.0 to 1.33.0
+        https://github.com/dhth/agent0/pull/19
+        Created: Mon, 3 Nov 2025 01:34:50 +0000
+        Updated: Mon, 3 Nov 2025 01:34:51 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/ecscope
+=============
+
+-> checking PR #104
+        ci: bump taiki-e/install-action from 2.62.43 to 2.62.46
+        https://github.com/dhth/ecscope/pull/104
+        Created: Wed, 5 Nov 2025 07:44:32 +0000
+        Updated: Wed, 5 Nov 2025 07:45:10 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "publish-check" concluded with desired status: "success"
+        [ check  ]   "test-rust (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test-rust (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build-rust (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test-gleam" concluded with desired status: "success"
+        [ check  ]   "build-rust (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build-gleam" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/ddiff
+=============
+
+-> checking PR #37
+        build: bump the minor-updates group across 1 directory with 5 updates
+        https://github.com/dhth/ddiff/pull/37
+        Created: Wed, 5 Nov 2025 22:11:23 +0000
+        Updated: Wed, 5 Nov 2025 22:39:32 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "Vercel Preview Comments" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/dfft
+=============
+
+-> checking PR #78
+        build: bump tokio-util from 0.7.16 to 0.7.17 in the patch-updates group
+        https://github.com/dhth/dfft/pull/78
+        Created: Wed, 5 Nov 2025 07:45:36 +0000
+        Updated: Wed, 5 Nov 2025 07:48:37 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test-ubuntu-latest-default" concluded with desired status: "success"
+        [ check  ]   "build-ubuntu-latest-no-sound" concluded with desired status: "success"
+        [ check  ]   "test-macos-latest-default" concluded with desired status: "success"
+        [ check  ]   "test-macos-latest-no-sound" concluded with desired status: "success"
+        [ check  ]   "publish-check" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "build-macos-latest-default" concluded with desired status: "success"
+        [ check  ]   "test-ubuntu-latest-no-sound" concluded with desired status: "success"
+        [ check  ]   "build-macos-latest-no-sound" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "build-ubuntu-latest-default" concluded with desired status: "success"
+        [ check  ]   "lint-no-sound" concluded with desired status: "success"
+        [ check  ]   "lint-default" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+[INFO] This run ended at 2025-11-05 23:08:06.638842318 UTC; took 3 seconds
+
+===========
+  SUMMARY
+===========
+
+- PRs merged:                    2
+- PRs disqualified:              2
+- Repos checked:                 37
+- Repos with no relevant PRs:    33
+- Errors encountered:            0
+
+PRs merged
+---
+
+- [dhth/ddiff] build: bump the minor-updates group across 1 directory with 5 updates
+- [dhth/dfft] build: bump tokio-util from 0.7.16 to 0.7.17 in the patch-updates group
+
+Disqualifications
+---
+
+- https://github.com/dhth/agent0/pull/19          check vulncheck: failure
+- https://github.com/dhth/ecscope/pull/104        check build-gleam: failure
