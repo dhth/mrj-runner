@@ -44,11 +44,15 @@
     <body class="bg-[#282828] overflow-y-scroll">
         <div class="min-h-screen">
             <div class="nav-header">
-                <div class="w-4/5 max-sm:w-full max-sm:px-4 mx-auto py-3">
-                    <a href="https://gh.dhruvs.space" class="inline-flex items-center gap-1 text-[#83a598] hover:text-[#fabd2f] text-sm transition font-semibold">
-                        <span>↖</span>
-                        <span>gh dash</span>
+                <div class="flex gap-4 w-4/5 max-sm:w-full max-sm:px-4 mx-auto py-3">
+                    <a href="https://gh.dhruvs.space" class="inline-flex items-center gap-1 text-[#83a598] hover:text-[#fabd2f] transition font-semibold">
+                        <span>↖️</span>
+                        <span>gh</span>
                     </a>
+                    <button id="scrollToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"
+                        class="invisible bg-[#928374] text-[#282828] px-2 hover:bg-[#fabd2f] font-bold transition">
+                    ↑
+                    </button>
                 </div>
             </div>
             <div class="w-4/5 max-sm:w-full max-sm:px-4 mx-auto pt-8">
@@ -81,10 +85,6 @@
                 {%- endif %}
                 <p class="text-[#928374] italic my-10 pt-2 border-t-2 border-[#92837433]">Built using <a class="font-bold" href="https://github.com/dhth/mrj" target="_blank" rel="noopener noreferrer">mrj</a></p>
             </div>
-            <button id="scrollToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"
-                class="hidden fixed bottom-4 left-4 z-50 bg-[#928374] text-[#282828] px-4 py-2 rounded-full shadow-lg hover:bg-[#d3869b] font-bold transition">
-            ↑
-            </button>
         </div>
         <script>
             const scrollToTopButton = document.getElementById("scrollToTop");
@@ -99,9 +99,9 @@
             
             window.addEventListener("scroll", function () {
                 if (window.scrollY > 100) {
-                    scrollToTopButton.classList.remove("hidden");
+                    scrollToTopButton.classList.remove("invisible");
                 } else {
-                    scrollToTopButton.classList.add("hidden");
+                    scrollToTopButton.classList.add("invisible");
                 }
             });
         </script>
