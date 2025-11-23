@@ -1,0 +1,79 @@
+name: pr
+
+on:
+  pull_request:
+
+env:
+  MRJ_VERSION: v0.4.0-alpha.4
+
+jobs:
+  changes:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
+      contents: read
+    outputs:
+      mrj: ${{ steps.filter.outputs.mrj }}
+      sh: ${{ steps.filter.outputs.sh }}
+      workflows: ${{ steps.filter.outputs.workflows }}
+      yml: ${{ steps.filter.outputs.yml }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+      - uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          filters: |
+            mrj:
+              - "mrj.toml"
+              - ".github/workflows/ci.yml"
+            sh:
+              - "**/.sh"
+              - ".github/workflows/ci.yml"
+            workflows:
+              - ".github/workflows/**.yml"
+            yml:
+              - "**.yml"
+              - "**.yaml"
+
+  validate:
+    needs: changes
+    if: ${{ needs.changes.outputs.mrj == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install mrj
+        uses: jaxxstorm/action-install-gh-release@6096f2a2bbfee498ced520b6922ac2c06e990ed2 # v2.1.0
+        with:
+          repo: dhth/mrj
+          tag: ${{ env.MRJ_VERSION }}
+      - uses: actions/checkout@v5
+      - name: Validate
+        run: |
+          mrj config validate
+
+  lint-yaml:
+    needs: changes
+    if: ${{ needs.changes.outputs.yml == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+      - uses: dhth/composite-actions/.github/actions/lint-yaml@main
+
+  lint-workflows:
+    needs: changes
+    if: ${{ needs.changes.outputs.workflows == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+      - uses: dhth/composite-actions/.github/actions/lint-actions@main
+
+  lint-sh:
+    needs: changes
+    if: ${{ needs.changes.outputs.sh == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+      - uses: dhth/composite-actions/.github/actions/lint-sh@main

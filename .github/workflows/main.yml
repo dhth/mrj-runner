@@ -1,7 +1,6 @@
-name: ci
+name: main
 
 on:
-  pull_request:
   push:
     branches:
       - 'main'
@@ -12,9 +11,6 @@ env:
 jobs:
   changes:
     runs-on: ubuntu-latest
-    permissions:
-      pull-requests: read
-      contents: read
     outputs:
       mrj: ${{ steps.filter.outputs.mrj }}
       sh: ${{ steps.filter.outputs.sh }}
