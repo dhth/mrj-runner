@@ -14,7 +14,7 @@ permissions:
   id-token: write
 
 env:
-  MRJ_VERSION: v0.4.0-alpha.3
+  MRJ_VERSION: v0.4.0-alpha.4
 
 jobs:
   run:
@@ -45,22 +45,34 @@ jobs:
           COLORTERM: "truecolor"
         run: |
           mrj run -eos
-      - name: Generate report
+      - name: Check if report contains useful info
+        id: check-notif
         run: |
-          mrj report generate -n 20
+          echo "send=$(./.github/scripts/should-send-notif.sh)" >> "$GITHUB_OUTPUT"
+      - name: Generate report
+        if: steps.check-notif.outputs.send == '1'
+        run: |
+          mrj report generate \
+              --html-template static/template.html \
+              --title "dependency updates"
       - name: Get run number
         id: run-number
+        if: steps.check-notif.outputs.send == '1'
         run: echo "number=$(cat ./.mrj/last-run.txt)" >> "$GITHUB_OUTPUT"
       - name: Setup Pages
+        if: steps.check-notif.outputs.send == '1'
         uses: actions/configure-pages@v5
       - name: Upload artifact
+        if: steps.check-notif.outputs.send == '1'
         uses: actions/upload-pages-artifact@v4
         with:
           path: "dist"
       - name: Deploy to GitHub Pages
         id: deployment
+        if: steps.check-notif.outputs.send == '1'
         uses: actions/deploy-pages@v4
       - name: Commit and push results
+        if: steps.check-notif.outputs.send == '1'
         run: |
           git config user.name "github-actions[bot]"
           # https://github.com/actions/checkout?tab=readme-ov-file#push-a-commit-using-the-built-in-token
@@ -68,10 +80,6 @@ jobs:
           git add .
           git commit -m "add run-${{ steps.run-number.outputs.number }}"
           git push
-      - name: Check if notification is to be sent
-        id: check-notif
-        run: |
-          echo "send=$(./.github/scripts/should-send-notif.sh)" >> "$GITHUB_OUTPUT"
       - name: Generate summary
         id: get-summary
         if: steps.check-notif.outputs.send == '1'
