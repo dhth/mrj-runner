@@ -51,10 +51,6 @@
                     </a>
                     <a href="https://actions.gh.dhruvs.space" class="hover:text-[#d3869b]">actions</a>
                     <a href="https://unreleased.gh.dhruvs.space" class="hover:text-[#d3869b]">unreleased</a>
-                    <button id="scrollToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"
-                        class="invisible bg-[#928374] text-[#282828] px-2 hover:bg-[#fabd2f] font-bold transition">
-                    ↑
-                    </button>
                 </div>
             </nav>
             <div class="w-4/5 max-sm:w-full max-sm:px-4 mx-auto pt-8">
@@ -86,6 +82,10 @@
                 <p class="text-[#928374] mt-4">No runs found yet.</p>
                 {%- endif %}
                 <p class="text-[#928374] italic my-10 pt-2 border-t-2 border-[#92837433]">Built using <a class="font-bold" href="https://github.com/dhth/mrj" target="_blank" rel="noopener noreferrer">mrj</a></p>
+                <button id="scrollToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"
+                    class="hidden fixed bottom-4 left-4 z-50 bg-[#928374] text-[#282828] px-4 py-2 rounded-full shadow-lg hover:bg-[#d3869b] font-bold transition">
+                ↑
+                </button>
             </div>
         </div>
         <script>
@@ -101,9 +101,9 @@
             
             window.addEventListener("scroll", function () {
                 if (window.scrollY > 100) {
-                    scrollToTopButton.classList.remove("invisible");
+                    scrollToTopButton.classList.remove("hidden");
                 } else {
-                    scrollToTopButton.classList.add("invisible");
+                    scrollToTopButton.classList.add("hidden");
                 }
             });
         </script>
