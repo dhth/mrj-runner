@@ -13,6 +13,7 @@ repos = [
     "dhth/dstll",
     "dhth/ecscope",
     "dhth/ecsv",
+    "dhth/envee",
     "dhth/ghx",
     "dhth/graphc",
     "dhth/hours",
@@ -34,6 +35,8 @@ repos = [
     "dhth/tflens",
     "dhth/ting",
     "dhth/tomo",
+    "dhth/unreleased-report",
+    "dhth/unreleased",
     "dhth/urll",
     "dhth/zero2prod",
 ]
