@@ -43,18 +43,20 @@
     </head>
     <body class="bg-[#282828] overflow-y-scroll">
         <div class="min-h-screen">
-            <div class="nav-header">
-                <div class="flex gap-4 w-4/5 max-sm:w-full max-sm:px-4 mx-auto py-3">
-                    <a href="https://gh.dhruvs.space" class="inline-flex items-center gap-1 text-[#83a598] hover:text-[#fabd2f] transition font-semibold">
+            <nav class="nav-header">
+                <div class="flex gap-4 w-4/5 max-sm:w-full max-sm:px-4 mx-auto py-3 font-semibold text-[#83a598] ">
+                    <a href="https://gh.dhruvs.space" class="inline-flex items-center gap-1 hover:text-[#fabd2f] transition">
                         <span>↖️</span>
                         <span>gh</span>
                     </a>
+                    <a href="https://actions.gh.dhruvs.space" class="hover:text-[#d3869b]">actions</a>
+                    <a href="https://unreleased.gh.dhruvs.space" class="hover:text-[#d3869b]">unreleased</a>
                     <button id="scrollToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});"
                         class="invisible bg-[#928374] text-[#282828] px-2 hover:bg-[#fabd2f] font-bold transition">
                     ↑
                     </button>
                 </div>
-            </div>
+            </nav>
             <div class="w-4/5 max-sm:w-full max-sm:px-4 mx-auto pt-8">
                 <div class="flex flex-col gap-2">
                     <h1 class="text-[#fbf1c7] text-3xl font-semibold">{{ title }}</h1>
