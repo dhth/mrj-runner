@@ -15,7 +15,7 @@ jobs:
         with:
           repo: dhth/mrj
           tag: ${{ env.MRJ_VERSION }}
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Generate GH token
         id: generate-token
         uses: actions/create-github-app-token@v2
