@@ -30,7 +30,7 @@ jobs:
         with:
           repo: dhth/tbll
           tag: v1.1.0
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Generate GH token
         id: generate-token
         uses: actions/create-github-app-token@v2
