@@ -1,0 +1,52 @@
+
+                          __
+          ___ ___   _ __ /\_\
+        /' __` __`\/\`'__\/\ \
+        /\ \/\ \/\ \ \ \/ \ \ \
+        \ \_\ \_\ \_\ \_\ _\ \ \
+         \/_/\/_/\/_/\/_//\ \_\ \
+                         \ \____/
+                          \/___/
+
+
+[INFO] The time right now is 2025-12-04 22:37:51.345779695 UTC
+[INFO] I'm only looking for PRs where the base branch is "main"
+[INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
+
+
+=============
+  dhth/mrj
+=============
+
+-> checking PR #72
+        build: bump octocrab from 0.47.1 to 0.48.0
+        https://github.com/dhth/mrj/pull/72
+        Created: Mon, 1 Dec 2025 19:32:24 +0000
+        Updated: Wed, 3 Dec 2025 07:55:28 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "dry-run" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with undesired status: "failure" ❌
+
+[INFO] This run ended at 2025-12-04 22:37:52.978840456 UTC; took 1 seconds
+
+===========
+  SUMMARY
+===========
+
+- PRs merged:                    0
+- PRs disqualified:              1
+- Repos checked:                 41
+- Repos with no relevant PRs:    40
+- Errors encountered:            0
+
+Disqualifications
+---
+
+- https://github.com/dhth/mrj/pull/72        check audit: failure
