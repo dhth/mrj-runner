@@ -1,0 +1,192 @@
+
+                          __
+          ___ ___   _ __ /\_\
+        /' __` __`\/\`'__\/\ \
+        /\ \/\ \/\ \ \ \/ \ \ \
+        \ \_\ \_\ \_\ \_\ _\ \ \
+         \/_/\/_/\/_/\/_//\ \_\ \
+                         \ \____/
+                          \/___/
+
+
+[INFO] The time right now is 2026-01-05 23:08:17.646647736 UTC
+[INFO] I'm only looking for PRs where the base branch is "main"
+[INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
+
+
+=============
+  dhth/dfft
+=============
+
+-> checking PR #86
+        build: bump ratatui from 0.29.0 to 0.30.0
+        https://github.com/dhth/dfft/pull/86
+        Created: Thu, 1 Jan 2026 02:17:28 +0000
+        Updated: Thu, 1 Jan 2026 02:18:03 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test-macos-latest-no-sound" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/shfl
+=============
+
+-> checking PR #40
+        build: bump ratatui from 0.29.0 to 0.30.0
+        https://github.com/dhth/shfl/pull/40
+        Created: Thu, 1 Jan 2026 09:09:52 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with undesired status: "cancelled" ❌
+
+
+=============
+  dhth/bmm
+=============
+
+-> checking PR #107
+        build: bump ratatui from 0.29.0 to 0.30.0
+        https://github.com/dhth/bmm/pull/107
+        Created: Thu, 1 Jan 2026 14:20:17 +0000
+        Updated: Thu, 1 Jan 2026 23:12:39 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-sh" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/atls
+=============
+
+-> checking PR #24
+        build: bump ratatui from 0.29.0 to 0.30.0
+        https://github.com/dhth/atls/pull/24
+        Created: Thu, 1 Jan 2026 01:20:59 +0000
+        Updated: Thu, 1 Jan 2026 23:40:02 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/ecscope
+=============
+
+-> checking PR #112
+        build: bump ratatui from 0.29.0 to 0.30.0
+        https://github.com/dhth/ecscope/pull/112
+        Created: Thu, 1 Jan 2026 01:17:40 +0000
+        Updated: Sat, 3 Jan 2026 22:10:21 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "build-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-gleam" concluded with desired status: "success"
+        [ check  ]   "test-rust (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "back-compat" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "lint-rust" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/mrj
+=============
+
+-> checking PR #76
+        build: bump octocrab from 0.47.1 to 0.49.5
+        https://github.com/dhth/mrj/pull/76
+        Created: Thu, 1 Jan 2026 17:20:20 +0000
+        Updated: Thu, 1 Jan 2026 22:42:05 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "dry-run" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/squidge
+=============
+
+-> checking PR #68
+        ci: bump taiki-e/install-action from 2.62.46 to 2.65.11
+        https://github.com/dhth/squidge/pull/68
+        Created: Thu, 1 Jan 2026 14:10:30 +0000
+        Updated: Thu, 1 Jan 2026 14:10:56 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "custom-release-packages" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        error 😵: couldn't merge PR
+
+[INFO] This run ended at 2026-01-05 23:08:20.021624188 UTC; took 2 seconds
+
+===========
+  SUMMARY
+===========
+
+- PRs merged:                    0
+- PRs disqualified:              6
+- Repos checked:                 41
+- Repos with no relevant PRs:    34
+- Errors encountered:            1
+
+Disqualifications
+---
+
+- https://github.com/dhth/dfft/pull/86            check test-macos-latest-no-sound: failure
+- https://github.com/dhth/shfl/pull/40            check build (macos-latest): cancelled
+- https://github.com/dhth/bmm/pull/107            check test (ubuntu-latest): failure
+- https://github.com/dhth/atls/pull/24            check build (ubuntu-latest): failure
+- https://github.com/dhth/ecscope/pull/112        check lint-rust: failure
+- https://github.com/dhth/mrj/pull/76             check audit: failure
