@@ -9,7 +9,7 @@
                           \/___/
 
 
-[INFO] The time right now is 2026-01-03 22:38:44.644083952 UTC
+[INFO] The time right now is 2026-01-05 23:37:23.072524834 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
 
@@ -94,24 +94,6 @@
 
 
 =============
-  dhth/bmm
-=============
-
--> checking PR #107
-        build: bump ratatui from 0.29.0 to 0.30.0
-        https://github.com/dhth/bmm/pull/107
-        Created: Thu, 1 Jan 2026 14:20:17 +0000
-        Updated: Thu, 1 Jan 2026 23:12:39 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint-sh" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "dstlled-diff" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with desired status: "success"
-        [ check  ]   "test (ubuntu-latest)" concluded with undesired status: "failure" ❌
-
-
-=============
   dhth/mrj
 =============
 
@@ -136,6 +118,24 @@
         [ check  ]   "lint" concluded with desired status: "success"
         [ check  ]   "test (macos-latest)" concluded with desired status: "success"
         [ check  ]   "audit" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/bmm
+=============
+
+-> checking PR #107
+        build: bump ratatui from 0.29.0 to 0.30.0
+        https://github.com/dhth/bmm/pull/107
+        Created: Thu, 1 Jan 2026 14:20:17 +0000
+        Updated: Thu, 1 Jan 2026 23:12:39 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-sh" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with undesired status: "failure" ❌
 
 
 =============
@@ -169,7 +169,7 @@
         [ state  ]   "clean" is desirable
         error 😵: couldn't merge PR
 
-[INFO] This run ended at 2026-01-03 22:38:46.536241827 UTC; took 1 seconds
+[INFO] This run ended at 2026-01-05 23:37:25.570623149 UTC; took 2 seconds
 
 ===========
   SUMMARY
@@ -188,5 +188,5 @@ Disqualifications
 - https://github.com/dhth/atls/pull/24            check build (ubuntu-latest): failure
 - https://github.com/dhth/dfft/pull/86            check test-macos-latest-no-sound: failure
 - https://github.com/dhth/ecscope/pull/112        check lint-rust: failure
-- https://github.com/dhth/bmm/pull/107            check test (ubuntu-latest): failure
 - https://github.com/dhth/mrj/pull/76             check audit: failure
+- https://github.com/dhth/bmm/pull/107            check test (ubuntu-latest): failure
