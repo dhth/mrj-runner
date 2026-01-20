@@ -9,32 +9,9 @@
                           \/___/
 
 
-[INFO] The time right now is 2026-01-10 22:05:30.749620492 UTC
+[INFO] The time right now is 2026-01-20 23:05:58.239777345 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
-
-
-=============
-  dhth/bmm
-=============
-
--> checking PR #107
-        build: bump ratatui from 0.29.0 to 0.30.0
-        https://github.com/dhth/bmm/pull/107
-        Created: Thu, 1 Jan 2026 14:20:17 +0000
-        Updated: Sat, 10 Jan 2026 16:03:10 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
-        [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
-        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
-        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
-        [ check  ]   "dstlled-diff" concluded with desired status: "success"
-        [ check  ]   "lint-sh" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with undesired status: "failure" ❌
 
 
 =============
@@ -68,19 +45,14 @@
         [ state  ]   "clean" is desirable
         error 😵: couldn't merge PR
 
-[INFO] This run ended at 2026-01-10 22:05:32.305365755 UTC; took 1 seconds
+[INFO] This run ended at 2026-01-20 23:06:00.345877369 UTC; took 2 seconds
 
 ===========
   SUMMARY
 ===========
 
 - PRs merged:                    0
-- PRs disqualified:              1
+- PRs disqualified:              0
 - Repos checked:                 41
-- Repos with no relevant PRs:    39
+- Repos with no relevant PRs:    40
 - Errors encountered:            1
-
-Disqualifications
----
-
-- https://github.com/dhth/bmm/pull/107        check build (ubuntu-latest): failure
