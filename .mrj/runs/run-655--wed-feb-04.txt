@@ -1,0 +1,157 @@
+
+                          __
+          ___ ___   _ __ /\_\
+        /' __` __`\/\`'__\/\ \
+        /\ \/\ \/\ \ \ \/ \ \ \
+        \ \_\ \_\ \_\ \_\ _\ \ \
+         \/_/\/_/\/_/\/_//\ \_\ \
+                         \ \____/
+                          \/___/
+
+
+[INFO] The time right now is 2026-02-04 23:42:17.933480303 UTC
+[INFO] I'm only looking for PRs where the base branch is "main"
+[INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
+
+
+=============
+  dhth/omm
+=============
+
+-> checking PR #114
+        build: bump modernc.org/sqlite from 1.42.2 to 1.44.3 in the minor-updates group
+        https://github.com/dhth/omm/pull/114
+        Created: Sun, 1 Feb 2026 07:24:06 +0000
+        Updated: Sun, 1 Feb 2026 07:24:07 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/ecsv
+=============
+
+-> checking PR #157
+        build: bump the patch-updates group with 5 updates
+        https://github.com/dhth/ecsv/pull/157
+        Created: Sun, 1 Feb 2026 12:38:42 +0000
+        Updated: Sun, 1 Feb 2026 12:38:43 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
+
+-> checking PR #158
+        build: bump github.com/aws/aws-sdk-go-v2/service/ecs from 1.70.0 to 1.71.0 in the minor-updates group
+        https://github.com/dhth/ecsv/pull/158
+        Created: Sun, 1 Feb 2026 12:39:58 +0000
+        Updated: Sun, 1 Feb 2026 12:39:59 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/hours
+=============
+
+-> checking PR #138
+        build: bump the patch-updates group with 2 updates
+        https://github.com/dhth/hours/pull/138
+        Created: Sun, 1 Feb 2026 05:53:52 +0000
+        Updated: Sun, 1 Feb 2026 05:53:53 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "live-tests (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "live-tests (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
+
+-> checking PR #139
+        build: bump modernc.org/sqlite from 1.42.2 to 1.44.3 in the minor-updates group
+        https://github.com/dhth/hours/pull/139
+        Created: Sun, 1 Feb 2026 05:54:05 +0000
+        Updated: Sun, 1 Feb 2026 05:54:06 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "live-tests (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "live-tests (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "back-compat (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "back-compat (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/kplay
+=============
+
+-> checking PR #144
+        build: bump the patch-updates group with 4 updates
+        https://github.com/dhth/kplay/pull/144
+        Created: Sun, 1 Feb 2026 15:56:34 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "build-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "build-go (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build-go (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test-go (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test-go (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
+
+-> checking PR #145
+        build: bump github.com/aws/aws-sdk-go-v2/service/s3 from 1.95.0 to 1.96.0 in the minor-updates group
+        https://github.com/dhth/kplay/pull/145
+        Created: Sun, 1 Feb 2026 15:57:46 +0000
+        Updated: Sun, 1 Feb 2026 15:57:47 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-gleam" concluded with desired status: "success"
+        [ check  ]   "build-gleam" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "build-go (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test-go (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
+
+[INFO] This run ended at 2026-02-04 23:42:20.038901960 UTC; took 2 seconds
+
+===========
+  SUMMARY
+===========
+
+- PRs merged:                    0
+- PRs disqualified:              7
+- Repos checked:                 41
+- Repos with no relevant PRs:    37
+- Errors encountered:            0
+
+Disqualifications
+---
+
+- https://github.com/dhth/omm/pull/114          check vulncheck: failure
+- https://github.com/dhth/ecsv/pull/157         check vulncheck: failure
+- https://github.com/dhth/ecsv/pull/158         check vulncheck: failure
+- https://github.com/dhth/hours/pull/138        check vulncheck: failure
+- https://github.com/dhth/hours/pull/139        check vulncheck: failure
+- https://github.com/dhth/kplay/pull/144        check vulncheck: failure
+- https://github.com/dhth/kplay/pull/145        check vulncheck: failure
