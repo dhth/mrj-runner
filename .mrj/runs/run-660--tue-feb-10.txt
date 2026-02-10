@@ -9,7 +9,7 @@
                           \/___/
 
 
-[INFO] The time right now is 2026-02-03 23:12:36.478564507 UTC
+[INFO] The time right now is 2026-02-10 22:16:43.482244729 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
 
@@ -38,13 +38,15 @@
         build: bump the patch-updates group with 5 updates
         https://github.com/dhth/ecsv/pull/157
         Created: Sun, 1 Feb 2026 12:38:42 +0000
-        Updated: Sun, 1 Feb 2026 12:38:43 +0000
+        Updated: Fri, 6 Feb 2026 08:57:13 +0000
         [ author ]   "dependabot[bot]" is in the list of trusted authors
         [ check  ]   "release-check" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
         [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
         [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
         [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
 
 -> checking PR #158
@@ -133,7 +135,7 @@
         [ check  ]   "test-go (ubuntu-latest)" concluded with desired status: "success"
         [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
 
-[INFO] This run ended at 2026-02-03 23:12:38.455764950 UTC; took 1 seconds
+[INFO] This run ended at 2026-02-10 22:16:46.057054315 UTC; took 2 seconds
 
 ===========
   SUMMARY
