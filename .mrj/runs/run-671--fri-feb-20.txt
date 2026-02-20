@@ -9,56 +9,9 @@
                           \/___/
 
 
-[INFO] The time right now is 2026-02-10 22:46:44.772384084 UTC
+[INFO] The time right now is 2026-02-20 23:41:05.135576788 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
-
-
-=============
-  dhth/omm
-=============
-
--> checking PR #114
-        build: bump modernc.org/sqlite from 1.42.2 to 1.44.3 in the minor-updates group
-        https://github.com/dhth/omm/pull/114
-        Created: Sun, 1 Feb 2026 07:24:06 +0000
-        Updated: Sun, 1 Feb 2026 07:24:07 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "release-check" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
-
-
-=============
-  dhth/ecsv
-=============
-
--> checking PR #157
-        build: bump the patch-updates group with 5 updates
-        https://github.com/dhth/ecsv/pull/157
-        Created: Sun, 1 Feb 2026 12:38:42 +0000
-        Updated: Fri, 6 Feb 2026 08:57:13 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "release-check" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
-
--> checking PR #158
-        build: bump github.com/aws/aws-sdk-go-v2/service/ecs from 1.70.0 to 1.71.0 in the minor-updates group
-        https://github.com/dhth/ecsv/pull/158
-        Created: Sun, 1 Feb 2026 12:39:58 +0000
-        Updated: Sun, 1 Feb 2026 12:39:59 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "release-check" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
 
 
 =============
@@ -135,24 +88,21 @@
         [ check  ]   "test-go (ubuntu-latest)" concluded with desired status: "success"
         [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
 
-[INFO] This run ended at 2026-02-10 22:46:47.691137323 UTC; took 2 seconds
+[INFO] This run ended at 2026-02-20 23:41:07.592572893 UTC; took 2 seconds
 
 ===========
   SUMMARY
 ===========
 
 - PRs merged:                    0
-- PRs disqualified:              7
+- PRs disqualified:              4
 - Repos checked:                 41
-- Repos with no relevant PRs:    37
+- Repos with no relevant PRs:    39
 - Errors encountered:            0
 
 Disqualifications
 ---
 
-- https://github.com/dhth/omm/pull/114          check vulncheck: failure
-- https://github.com/dhth/ecsv/pull/157         check vulncheck: failure
-- https://github.com/dhth/ecsv/pull/158         check vulncheck: failure
 - https://github.com/dhth/hours/pull/138        check vulncheck: failure
 - https://github.com/dhth/hours/pull/139        check vulncheck: failure
 - https://github.com/dhth/kplay/pull/144        check vulncheck: failure
