@@ -9,7 +9,7 @@
                           \/___/
 
 
-[INFO] The time right now is 2026-03-15 23:09:11.828035612 UTC
+[INFO] The time right now is 2026-03-30 22:13:35.076018247 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
 
@@ -31,22 +31,6 @@
         [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
         [ check  ]   "build (macos-latest)" concluded with desired status: "success"
         [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with undesired status: "failure" ❌
-
-
-=============
-  dhth/urll
-=============
-
--> checking PR #51
-        build: bump the patch-updates group with 3 updates
-        https://github.com/dhth/urll/pull/51
-        Created: Sun, 1 Mar 2026 15:47:31 +0000
-        Updated: Sun, 1 Mar 2026 15:47:57 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
         [ check  ]   "audit" concluded with undesired status: "failure" ❌
 
 
@@ -580,7 +564,23 @@
         [ check  ]   "dstlled-diff" concluded with desired status: "success"
         [ check  ]   "build-rust (ubuntu-latest)" concluded with undesired status: "failure" ❌
 
-[INFO] This run ended at 2026-03-15 23:09:16.401016209 UTC; took 4 seconds
+
+=============
+  dhth/urll
+=============
+
+-> checking PR #51
+        build: bump the patch-updates group with 3 updates
+        https://github.com/dhth/urll/pull/51
+        Created: Sun, 1 Mar 2026 15:47:31 +0000
+        Updated: Sun, 1 Mar 2026 15:47:57 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with undesired status: "failure" ❌
+
+[INFO] This run ended at 2026-03-30 22:13:48.254646396 UTC; took 13 seconds
 
 ===========
   SUMMARY
@@ -596,7 +596,6 @@ Disqualifications
 ---
 
 - https://github.com/dhth/agent1/pull/26            check audit: failure
-- https://github.com/dhth/urll/pull/51              check audit: failure
 - https://github.com/dhth/commits/pull/53           check release-check: failure
 - https://github.com/dhth/tomo/pull/94              check test (macos-latest): cancelled
 - https://github.com/dhth/shfl/pull/45              check audit: failure
@@ -624,3 +623,4 @@ Disqualifications
 - https://github.com/dhth/ecscope/pull/122          check audit: failure
 - https://github.com/dhth/ecscope/pull/123          check audit: failure
 - https://github.com/dhth/ecscope/pull/124          check build-rust (ubuntu-latest): failure
+- https://github.com/dhth/urll/pull/51              check audit: failure
