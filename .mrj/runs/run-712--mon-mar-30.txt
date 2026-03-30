@@ -9,7 +9,7 @@
                           \/___/
 
 
-[INFO] The time right now is 2026-03-15 23:42:13.193550832 UTC
+[INFO] The time right now is 2026-03-30 22:45:37.253224728 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
 
@@ -117,34 +117,6 @@
 
 
 =============
-  dhth/shfl
-=============
-
--> checking PR #45
-        ci: bump goreleaser/goreleaser-action from 6 to 7
-        https://github.com/dhth/shfl/pull/45
-        Created: Sun, 1 Mar 2026 09:44:43 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with undesired status: "failure" ❌
-
--> checking PR #46
-        build: bump the patch-updates group with 2 updates
-        https://github.com/dhth/shfl/pull/46
-        Created: Sun, 1 Mar 2026 09:45:10 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "release-check" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with undesired status: "failure" ❌
-
-
-=============
   dhth/grafq
 =============
 
@@ -185,6 +157,50 @@
         [ check  ]   "build (macos-latest)" concluded with desired status: "success"
         [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
         [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/mrj
+=============
+
+-> checking PR #82
+        build: bump the patch-updates group with 6 updates
+        https://github.com/dhth/mrj/pull/82
+        Created: Sun, 1 Mar 2026 17:38:38 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "dry-run" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with undesired status: "failure" ❌
+
+-> checking PR #83
+        build: bump toml from 0.9.11+spec-1.1.0 to 1.0.3+spec-1.1.0
+        https://github.com/dhth/mrj/pull/83
+        Created: Sun, 1 Mar 2026 17:38:48 +0000
+        Updated: Sun, 1 Mar 2026 17:38:49 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "dry-run" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
         [ check  ]   "audit" concluded with undesired status: "failure" ❌
 
 
@@ -233,46 +249,30 @@
 
 
 =============
-  dhth/mrj
+  dhth/shfl
 =============
 
--> checking PR #82
-        build: bump the patch-updates group with 6 updates
-        https://github.com/dhth/mrj/pull/82
-        Created: Sun, 1 Mar 2026 17:38:38 +0000
+-> checking PR #45
+        ci: bump goreleaser/goreleaser-action from 6 to 7
+        https://github.com/dhth/shfl/pull/45
+        Created: Sun, 1 Mar 2026 09:44:43 +0000
         [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
-        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
-        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
-        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
-        [ check  ]   "dry-run" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
         [ check  ]   "test (macos-latest)" concluded with desired status: "success"
         [ check  ]   "audit" concluded with undesired status: "failure" ❌
 
--> checking PR #83
-        build: bump toml from 0.9.11+spec-1.1.0 to 1.0.3+spec-1.1.0
-        https://github.com/dhth/mrj/pull/83
-        Created: Sun, 1 Mar 2026 17:38:48 +0000
-        Updated: Sun, 1 Mar 2026 17:38:49 +0000
+-> checking PR #46
+        build: bump the patch-updates group with 2 updates
+        https://github.com/dhth/shfl/pull/46
+        Created: Sun, 1 Mar 2026 09:45:10 +0000
         [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
-        [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
-        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
-        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
-        [ check  ]   "dry-run" concluded with desired status: "success"
         [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
         [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
         [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
         [ check  ]   "audit" concluded with undesired status: "failure" ❌
 
 
@@ -580,7 +580,7 @@
         [ check  ]   "dstlled-diff" concluded with desired status: "success"
         [ check  ]   "build-rust (ubuntu-latest)" concluded with undesired status: "failure" ❌
 
-[INFO] This run ended at 2026-03-15 23:42:17.956547381 UTC; took 4 seconds
+[INFO] This run ended at 2026-03-30 22:45:41.578856007 UTC; took 4 seconds
 
 ===========
   SUMMARY
@@ -601,14 +601,14 @@ Disqualifications
 - https://github.com/dhth/tomo/pull/94              check test (macos-latest): cancelled
 - https://github.com/dhth/squish/pull/72            check audit: failure
 - https://github.com/dhth/squish/pull/74            check audit: failure
-- https://github.com/dhth/shfl/pull/45              check audit: failure
-- https://github.com/dhth/shfl/pull/46              check audit: failure
 - https://github.com/dhth/grafq/pull/33             check audit: failure
 - https://github.com/dhth/grafq/pull/34             check audit: failure
-- https://github.com/dhth/unreleased/pull/18        check audit: failure
-- https://github.com/dhth/unreleased/pull/19        check audit: failure
 - https://github.com/dhth/mrj/pull/82               check audit: failure
 - https://github.com/dhth/mrj/pull/83               check audit: failure
+- https://github.com/dhth/unreleased/pull/18        check audit: failure
+- https://github.com/dhth/unreleased/pull/19        check audit: failure
+- https://github.com/dhth/shfl/pull/45              check audit: failure
+- https://github.com/dhth/shfl/pull/46              check audit: failure
 - https://github.com/dhth/bmm/pull/116              check audit: failure
 - https://github.com/dhth/bmm/pull/117              check audit: failure
 - https://github.com/dhth/bmm/pull/118              check audit: failure
