@@ -83,7 +83,7 @@ jobs:
       - name: Send notification
         id: send-notification
         if: steps.check-notif.outputs.send == '1' && contains(steps.get-summary.outputs.summary, 'SUMMARY')
-        uses: slackapi/slack-github-action@v2
+        uses: slackapi/slack-github-action@v3
         with:
           method: chat.postMessage
           token: ${{ secrets.SLACK_BOT_TOKEN }}
