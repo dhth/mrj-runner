@@ -9,9 +9,99 @@
                           \/___/
 
 
-[INFO] The time right now is 2026-04-01 23:46:32.194647087 UTC
+[INFO] The time right now is 2026-04-04 22:45:26.552621952 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
+
+
+=============
+  dhth/ghx
+=============
+
+-> checking PR #65
+        ci: bump dorny/paths-filter from 3 to 4
+        https://github.com/dhth/ghx/pull/65
+        Created: Wed, 1 Apr 2026 19:55:15 +0000
+        Updated: Wed, 1 Apr 2026 19:55:16 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   Github returned with an empty conclusion for the check preview; skipping as I can't make any assumptions here ❌
+
+
+=============
+  dhth/atls
+=============
+
+-> checking PR #33
+        ci: bump dorny/paths-filter from 3 to 4
+        https://github.com/dhth/atls/pull/33
+        Created: Wed, 1 Apr 2026 01:45:44 +0000
+        Updated: Wed, 1 Apr 2026 01:45:45 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "blocked" is undesirable ❌
+
+
+=============
+  dhth/ddiff
+=============
+
+-> checking PR #54
+        ci: bump actions/configure-pages from 5 to 6
+        https://github.com/dhth/ddiff/pull/54
+        Created: Wed, 1 Apr 2026 00:47:15 +0000
+        Updated: Wed, 1 Apr 2026 00:47:35 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "Vercel Preview Comments" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ state  ]   "blocked" is undesirable ❌
+
+
+=============
+  dhth/graphc
+=============
+
+-> checking PR #80
+        build: bump ty from 0.0.19 to 0.0.27
+        https://github.com/dhth/graphc/pull/80
+        Created: Wed, 1 Apr 2026 03:12:43 +0000
+        Updated: Wed, 1 Apr 2026 23:23:23 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/punchout
+=============
+
+-> checking PR #112
+        ci: bump dorny/paths-filter from 3 to 4
+        https://github.com/dhth/punchout/pull/112
+        Created: Wed, 1 Apr 2026 20:16:15 +0000
+        Updated: Wed, 1 Apr 2026 20:16:16 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
 
 
 =============
@@ -32,7 +122,34 @@
         [ check  ]   "lint" concluded with desired status: "success"
         [ check  ]   "lint-workflows" concluded with desired status: "success"
         [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "unknown" is undesirable ❌
+        [ state  ]   "blocked" is undesirable ❌
+
+
+=============
+  dhth/envee
+=============
+
+-> checking PR #36
+        ci: bump dorny/paths-filter from 3 to 4
+        https://github.com/dhth/envee/pull/36
+        Created: Wed, 1 Apr 2026 13:45:05 +0000
+        Updated: Wed, 1 Apr 2026 13:45:06 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ state  ]   "blocked" is undesirable ❌
 
 
 =============
@@ -60,115 +177,115 @@
         [ check  ]   "audit" concluded with desired status: "success"
         [ check  ]   "plan" concluded with desired status: "success"
         [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "unknown" is undesirable ❌
+        [ state  ]   "blocked" is undesirable ❌
 
 
 =============
-  dhth/envee
+  dhth/bmm
 =============
 
--> checking PR #36
+-> checking PR #125
         ci: bump dorny/paths-filter from 3 to 4
-        https://github.com/dhth/envee/pull/36
-        Created: Wed, 1 Apr 2026 13:45:05 +0000
-        Updated: Wed, 1 Apr 2026 13:45:06 +0000
+        https://github.com/dhth/bmm/pull/125
+        Created: Wed, 1 Apr 2026 18:19:28 +0000
+        Updated: Wed, 1 Apr 2026 18:19:29 +0000
         [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
         [ check  ]   "announce" concluded with desired status: "success"
         [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
         [ check  ]   "host" concluded with desired status: "success"
         [ check  ]   "build-global-artifacts" concluded with desired status: "success"
         [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
         [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
         [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-sh" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
         [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
+        [ check  ]   "back-compat" concluded with desired status: "success"
         [ check  ]   "plan" concluded with desired status: "success"
-        [ state  ]   "unknown" is undesirable ❌
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "blocked" is undesirable ❌
 
 
 =============
-  dhth/squidge
+  dhth/tomo
 =============
 
--> checking PR #81
+-> checking PR #98
         ci: bump taiki-e/install-action from 2.68.15 to 2.71.0
-        https://github.com/dhth/squidge/pull/81
-        Created: Wed, 1 Apr 2026 18:03:50 +0000
-        Updated: Wed, 1 Apr 2026 18:04:14 +0000
+        https://github.com/dhth/tomo/pull/98
+        Created: Wed, 1 Apr 2026 23:40:21 +0000
         [ author ]   "dependabot[bot]" is in the list of trusted authors
         [ check  ]   "custom-release-packages" concluded with desired status: "success"
         [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
         [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
         [ check  ]   "build-global-artifacts" concluded with desired status: "success"
         [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "release-check" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with desired status: "success"
-        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
         [ check  ]   "dstlled-diff" concluded with desired status: "success"
-        [ check  ]   "plan" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "unknown" is undesirable ❌
-
-
-=============
-  dhth/tash
-=============
-
--> checking PR #80
-        ci: bump dorny/paths-filter from 3 to 4
-        https://github.com/dhth/tash/pull/80
-        Created: Wed, 1 Apr 2026 22:01:39 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
-        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
-        [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
-        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
-        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
-        [ check  ]   "publish-check" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
         [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with desired status: "success"
-        [ check  ]   "plan" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "unknown" is undesirable ❌
-
-
-=============
-  dhth/punchout
-=============
-
--> checking PR #112
-        ci: bump dorny/paths-filter from 3 to 4
-        https://github.com/dhth/punchout/pull/112
-        Created: Wed, 1 Apr 2026 20:16:15 +0000
-        Updated: Wed, 1 Apr 2026 20:16:16 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
         [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
         [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ state  ]   "blocked" is undesirable ❌
+
+
+=============
+  dhth/chronotes
+=============
+
+-> checking PR #50
+        chore(deps): bump jaxxstorm/action-install-gh-release from 2.1.0 to 3.0.0
+        https://github.com/dhth/chronotes/pull/50
+        Created: Wed, 1 Apr 2026 03:38:21 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   Github returned with an empty conclusion for the check preview; skipping as I can't make any assumptions here ❌
+
+-> checking PR #52
+        chore(deps): bump dorny/paths-filter from 3 to 4
+        https://github.com/dhth/chronotes/pull/52
+        Created: Wed, 1 Apr 2026 03:38:27 +0000
+        Updated: Wed, 1 Apr 2026 03:38:28 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   Github returned with an empty conclusion for the check preview; skipping as I can't make any assumptions here ❌
+
+
+=============
+  dhth/commits
+=============
+
+-> checking PR #53
+        ci: bump goreleaser/goreleaser-action from 6 to 7
+        https://github.com/dhth/commits/pull/53
+        Created: Sun, 1 Mar 2026 07:04:35 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with undesired status: "failure" ❌
+
+-> checking PR #56
+        ci: bump dorny/paths-filter from 3 to 4
+        https://github.com/dhth/commits/pull/56
+        Created: Wed, 1 Apr 2026 07:28:20 +0000
+        Updated: Wed, 1 Apr 2026 07:28:21 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
         [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
+        [ check  ]   "vulncheck" concluded with desired status: "success"
+        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with undesired status: "failure" ❌
 
 
 =============
@@ -203,66 +320,130 @@
 
 
 =============
-  dhth/commits
+  dhth/tash
 =============
 
--> checking PR #53
-        ci: bump goreleaser/goreleaser-action from 6 to 7
-        https://github.com/dhth/commits/pull/53
-        Created: Sun, 1 Mar 2026 07:04:35 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with desired status: "success"
-        [ check  ]   "release-check" concluded with undesired status: "failure" ❌
-
--> checking PR #56
+-> checking PR #80
         ci: bump dorny/paths-filter from 3 to 4
-        https://github.com/dhth/commits/pull/56
-        Created: Wed, 1 Apr 2026 07:28:20 +0000
-        Updated: Wed, 1 Apr 2026 07:28:21 +0000
+        https://github.com/dhth/tash/pull/80
+        Created: Wed, 1 Apr 2026 22:01:39 +0000
         [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "publish-check" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
         [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
         [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with desired status: "success"
-        [ check  ]   "test" concluded with desired status: "success"
-        [ check  ]   "release-check" concluded with undesired status: "failure" ❌
-
-
-=============
-  dhth/chronotes
-=============
-
--> checking PR #50
-        chore(deps): bump jaxxstorm/action-install-gh-release from 2.1.0 to 3.0.0
-        https://github.com/dhth/chronotes/pull/50
-        Created: Wed, 1 Apr 2026 03:38:21 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   Github returned with an empty conclusion for the check preview; skipping as I can't make any assumptions here ❌
-
--> checking PR #52
-        chore(deps): bump dorny/paths-filter from 3 to 4
-        https://github.com/dhth/chronotes/pull/52
-        Created: Wed, 1 Apr 2026 03:38:27 +0000
-        Updated: Wed, 1 Apr 2026 03:38:28 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   Github returned with an empty conclusion for the check preview; skipping as I can't make any assumptions here ❌
-
-
-=============
-  dhth/zero2prod
-=============
-
--> checking PR #53
-        build: bump the patch-updates group with 2 updates
-        https://github.com/dhth/zero2prod/pull/53
-        Created: Wed, 1 Apr 2026 23:25:34 +0000
-        Updated: Wed, 1 Apr 2026 23:25:35 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "fmt-and-clippy" concluded with desired status: "success"
-        [ check  ]   "build" concluded with desired status: "success"
-        [ check  ]   "test" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
         [ state  ]   "clean" is desirable
-        PR merged! 🎉 ✅
+        error 😵: couldn't merge PR
+
+
+=============
+  dhth/squidge
+=============
+
+-> checking PR #81
+        ci: bump taiki-e/install-action from 2.68.15 to 2.71.0
+        https://github.com/dhth/squidge/pull/81
+        Created: Wed, 1 Apr 2026 18:03:50 +0000
+        Updated: Wed, 1 Apr 2026 18:04:14 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-release-packages" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "release-check" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        error 😵: couldn't merge PR
+
+
+=============
+  dhth/ecscope
+=============
+
+-> checking PR #127
+        ci: bump jaxxstorm/action-install-gh-release from 2.1.0 to 3.0.0
+        https://github.com/dhth/ecscope/pull/127
+        Created: Wed, 1 Apr 2026 01:20:40 +0000
+        Updated: Wed, 1 Apr 2026 07:45:58 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "back-compat" concluded with desired status: "success"
+        [ check  ]   "publish-check" concluded with desired status: "success"
+        [ check  ]   "lint-rust" concluded with desired status: "success"
+        [ check  ]   "build-gleam" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "build-rust (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build-rust (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test-gleam" concluded with desired status: "success"
+        [ check  ]   "test-rust (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test-rust (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "blocked" is undesirable ❌
+
+-> checking PR #128
+        ci: bump taiki-e/install-action from 2.67.18 to 2.70.3
+        https://github.com/dhth/ecscope/pull/128
+        Created: Wed, 1 Apr 2026 01:21:02 +0000
+        Updated: Wed, 1 Apr 2026 07:46:31 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "publish-check" concluded with desired status: "success"
+        [ check  ]   "lint-gleam" concluded with desired status: "success"
+        [ check  ]   "back-compat" concluded with desired status: "success"
+        [ check  ]   "dstlled-diff" concluded with desired status: "success"
+        [ check  ]   "build-rust (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "build-gleam" concluded with desired status: "success"
+        [ check  ]   "test-gleam" concluded with desired status: "success"
+        [ check  ]   "build-rust (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "test-rust (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test-rust (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-rust" concluded with desired status: "success"
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "plan" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "blocked" is undesirable ❌
 
 
 =============
@@ -301,101 +482,6 @@
         [ check  ]   "lint-workflows" concluded with desired status: "success"
         [ check  ]   "changes" concluded with desired status: "success"
         [ state  ]   "blocked" is undesirable ❌
-
-
-=============
-  dhth/ecsv
-=============
-
--> checking PR #168
-        build: bump github.com/aws/aws-sdk-go-v2/service/ecs from 1.73.0 to 1.75.0 in the minor-updates group
-        https://github.com/dhth/ecsv/pull/168
-        Created: Wed, 1 Apr 2026 15:30:28 +0000
-        Updated: Wed, 1 Apr 2026 23:23:30 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "release-check" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        PR merged! 🎉 ✅
-
-
-=============
-  dhth/kplay
-=============
-
--> checking PR #155
-        build: bump github.com/aws/aws-sdk-go-v2/service/s3 from 1.96.2 to 1.98.0 in the minor-updates group across 1 directory
-        https://github.com/dhth/kplay/pull/155
-        Created: Wed, 1 Apr 2026 20:20:05 +0000
-        Updated: Wed, 1 Apr 2026 23:22:57 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "build-gleam" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "release-check" concluded with desired status: "success"
-        [ check  ]   "lint-gleam" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "test-go (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build-go (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "test-go (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with desired status: "success"
-        [ check  ]   "lint-go" concluded with desired status: "success"
-        [ check  ]   "build-go (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        PR merged! 🎉 ✅
-
-
-=============
-  dhth/mult
-=============
-
--> checking PR #51
-        ci: bump dorny/paths-filter from 3 to 4
-        https://github.com/dhth/mult/pull/51
-        Created: Wed, 1 Apr 2026 21:48:28 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "release-check" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        PR merged! 🎉 ✅
-
-
-=============
-  dhth/omm
-=============
-
--> checking PR #128
-        build: bump the minor-updates group across 1 directory with 3 updates
-        https://github.com/dhth/omm/pull/128
-        Created: Wed, 1 Apr 2026 07:54:23 +0000
-        Updated: Wed, 1 Apr 2026 23:21:15 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "test" concluded with desired status: "success"
-        [ check  ]   "back-compat (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "back-compat (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        PR merged! 🎉 ✅
 
 
 =============
@@ -455,32 +541,6 @@
 
 
 =============
-  dhth/hours
-=============
-
--> checking PR #154
-        build: bump the minor-updates group across 1 directory with 2 updates
-        https://github.com/dhth/hours/pull/154
-        Created: Wed, 1 Apr 2026 06:06:36 +0000
-        Updated: Wed, 1 Apr 2026 23:20:16 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "release-check" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "back-compat (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "back-compat (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with desired status: "success"
-        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        PR merged! 🎉 ✅
-
-
-=============
   dhth/shfl
 =============
 
@@ -513,32 +573,6 @@
         [ check  ]   "lint-yaml" concluded with desired status: "success"
         [ check  ]   "release-check" concluded with desired status: "success"
         [ check  ]   "audit" concluded with undesired status: "failure" ❌
-
-
-=============
-  dhth/ddiff
-=============
-
--> checking PR #54
-        ci: bump actions/configure-pages from 5 to 6
-        https://github.com/dhth/ddiff/pull/54
-        Created: Wed, 1 Apr 2026 00:47:15 +0000
-        Updated: Wed, 1 Apr 2026 00:47:35 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "Vercel Preview Comments" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ state  ]   "unknown" is undesirable ❌
-
--> checking PR #56
-        build: bump the minor-updates group across 1 directory with 2 updates
-        https://github.com/dhth/ddiff/pull/56
-        Created: Wed, 1 Apr 2026 00:47:59 +0000
-        Updated: Wed, 1 Apr 2026 23:21:24 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "Vercel Preview Comments" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        PR merged! 🎉 ✅
 
 
 =============
@@ -608,174 +642,6 @@
 
 
 =============
-  dhth/tomo
-=============
-
--> checking PR #97
-        ci: bump dorny/paths-filter from 3 to 4
-        https://github.com/dhth/tomo/pull/97
-        Created: Wed, 1 Apr 2026 23:40:00 +0000
-        Updated: Wed, 1 Apr 2026 23:40:01 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "custom-release-packages" concluded with desired status: "success"
-        [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
-        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
-        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
-        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
-        [ check  ]   "dstlled-diff" concluded with desired status: "success"
-        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with desired status: "success"
-        [ check  ]   "release-check" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "plan" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        PR merged! 🎉 ✅
-
-
-=============
-  dhth/ghx
-=============
-
--> checking PR #65
-        ci: bump dorny/paths-filter from 3 to 4
-        https://github.com/dhth/ghx/pull/65
-        Created: Wed, 1 Apr 2026 19:55:15 +0000
-        Updated: Wed, 1 Apr 2026 19:55:16 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   Github returned with an empty conclusion for the check preview; skipping as I can't make any assumptions here ❌
-
--> checking PR #69
-        build: bump hyper from 1.8.1 to 1.9.0
-        https://github.com/dhth/ghx/pull/69
-        Created: Wed, 1 Apr 2026 19:56:07 +0000
-        Updated: Wed, 1 Apr 2026 22:21:03 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "preview" concluded with desired status: "success"
-        [ check  ]   "lint-gleam" concluded with desired status: "success"
-        [ check  ]   "build-gleam" concluded with desired status: "success"
-        [ check  ]   "build-rust (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build-rust (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "lint-rust" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        PR merged! 🎉 ✅
-
-
-=============
-  dhth/bmm
-=============
-
--> checking PR #123
-        ci: bump jaxxstorm/action-install-gh-release from 2.1.0 to 3.0.0
-        https://github.com/dhth/bmm/pull/123
-        Created: Wed, 1 Apr 2026 18:19:03 +0000
-        Updated: Wed, 1 Apr 2026 18:19:04 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
-        [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
-        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
-        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "test" concluded with desired status: "success"
-        [ check  ]   "back-compat" concluded with desired status: "success"
-        [ check  ]   "dstlled-diff" concluded with desired status: "success"
-        [ check  ]   "build" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with desired status: "success"
-        [ check  ]   "lint-sh" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ check  ]   "plan" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        PR merged! 🎉 ✅
-
-
-=============
-  dhth/graphc
-=============
-
--> checking PR #80
-        build: bump ty from 0.0.19 to 0.0.27
-        https://github.com/dhth/graphc/pull/80
-        Created: Wed, 1 Apr 2026 03:12:43 +0000
-        Updated: Wed, 1 Apr 2026 23:23:23 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "dstlled-diff" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with undesired status: "failure" ❌
-
--> checking PR #81
-        build: bump pandas from 3.0.1 to 3.0.2
-        https://github.com/dhth/graphc/pull/81
-        Created: Wed, 1 Apr 2026 03:12:48 +0000
-        Updated: Wed, 1 Apr 2026 03:13:12 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "dstlled-diff" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        PR merged! 🎉 ✅
-
-
-=============
-  dhth/atls
-=============
-
--> checking PR #33
-        ci: bump dorny/paths-filter from 3 to 4
-        https://github.com/dhth/atls/pull/33
-        Created: Wed, 1 Apr 2026 01:45:44 +0000
-        Updated: Wed, 1 Apr 2026 01:45:45 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "unknown" is undesirable ❌
-
--> checking PR #35
-        build: bump the minor-updates group across 1 directory with 2 updates
-        https://github.com/dhth/atls/pull/35
-        Created: Wed, 1 Apr 2026 01:46:02 +0000
-        Updated: Wed, 1 Apr 2026 23:20:00 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        PR merged! 🎉 ✅
-
-
-=============
   dhth/unreleased-report
 =============
 
@@ -801,102 +667,6 @@
         [ check  ]   "changes" concluded with desired status: "success"
         [ state  ]   "clean" is desirable
         error 😵: couldn't merge PR
-
-
-=============
-  dhth/ecscope
-=============
-
--> checking PR #127
-        ci: bump jaxxstorm/action-install-gh-release from 2.1.0 to 3.0.0
-        https://github.com/dhth/ecscope/pull/127
-        Created: Wed, 1 Apr 2026 01:20:40 +0000
-        Updated: Wed, 1 Apr 2026 07:45:58 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
-        [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
-        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
-        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "back-compat" concluded with desired status: "success"
-        [ check  ]   "publish-check" concluded with desired status: "success"
-        [ check  ]   "lint-rust" concluded with desired status: "success"
-        [ check  ]   "build-gleam" concluded with desired status: "success"
-        [ check  ]   "dstlled-diff" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with desired status: "success"
-        [ check  ]   "build-rust (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build-rust (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "test-gleam" concluded with desired status: "success"
-        [ check  ]   "test-rust (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "test-rust (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "lint-gleam" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "plan" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "unknown" is undesirable ❌
-
--> checking PR #128
-        ci: bump taiki-e/install-action from 2.67.18 to 2.70.3
-        https://github.com/dhth/ecscope/pull/128
-        Created: Wed, 1 Apr 2026 01:21:02 +0000
-        Updated: Wed, 1 Apr 2026 07:46:31 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "publish-check" concluded with desired status: "success"
-        [ check  ]   "lint-gleam" concluded with desired status: "success"
-        [ check  ]   "back-compat" concluded with desired status: "success"
-        [ check  ]   "dstlled-diff" concluded with desired status: "success"
-        [ check  ]   "build-rust (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "build-gleam" concluded with desired status: "success"
-        [ check  ]   "test-gleam" concluded with desired status: "success"
-        [ check  ]   "build-rust (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "test-rust (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "test-rust (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "lint-rust" concluded with desired status: "success"
-        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
-        [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
-        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
-        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
-        [ check  ]   "plan" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "unknown" is undesirable ❌
-
--> checking PR #132
-        build: bump the minor-updates group across 1 directory with 5 updates
-        https://github.com/dhth/ecscope/pull/132
-        Created: Wed, 1 Apr 2026 23:21:48 +0000
-        Updated: Wed, 1 Apr 2026 23:24:22 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-gleam" concluded with desired status: "success"
-        [ check  ]   "test-gleam" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "build-gleam" concluded with desired status: "success"
-        [ check  ]   "dstlled-diff" concluded with desired status: "success"
-        [ check  ]   "back-compat" concluded with desired status: "success"
-        [ check  ]   "build-rust (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build-rust (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with desired status: "success"
-        [ check  ]   "publish-check" concluded with desired status: "success"
-        [ check  ]   "test-rust (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "lint-rust" concluded with desired status: "success"
-        [ check  ]   "test-rust (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
-        [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
-        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
-        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
-        [ check  ]   "plan" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        PR merged! 🎉 ✅
 
 
 =============
@@ -1123,50 +893,39 @@
         [ check  ]   "lint-workflows" concluded with desired status: "success"
         [ check  ]   "audit" concluded with undesired status: "failure" ❌
 
-[INFO] This run ended at 2026-04-01 23:46:37.183089266 UTC; took 4 seconds
+[INFO] This run ended at 2026-04-04 22:45:31.327028567 UTC; took 4 seconds
 
 ===========
   SUMMARY
 ===========
 
-- PRs merged:                    13
+- PRs merged:                    0
 - PRs disqualified:              41
 - Repos checked:                 41
-- Repos with no relevant PRs:    12
-- Errors encountered:            2
-
-PRs merged
----
-
-- [dhth/zero2prod] build: bump the patch-updates group with 2 updates
-- [dhth/ecsv] build: bump github.com/aws/aws-sdk-go-v2/service/ecs from 1.73.0 to 1.75.0 in the minor-updates group
-- [dhth/kplay] build: bump github.com/aws/aws-sdk-go-v2/service/s3 from 1.96.2 to 1.98.0 in the minor-updates group across 1 directory
-- [dhth/mult] ci: bump dorny/paths-filter from 3 to 4
-- [dhth/omm] build: bump the minor-updates group across 1 directory with 3 updates
-- [dhth/hours] build: bump the minor-updates group across 1 directory with 2 updates
-- [dhth/ddiff] build: bump the minor-updates group across 1 directory with 2 updates
-- [dhth/tomo] ci: bump dorny/paths-filter from 3 to 4
-- [dhth/ghx] build: bump hyper from 1.8.1 to 1.9.0
-- [dhth/bmm] ci: bump jaxxstorm/action-install-gh-release from 2.1.0 to 3.0.0
-- [dhth/graphc] build: bump pandas from 3.0.1 to 3.0.2
-- [dhth/atls] build: bump the minor-updates group across 1 directory with 2 updates
-- [dhth/ecscope] build: bump the minor-updates group across 1 directory with 5 updates
+- Repos with no relevant PRs:    18
+- Errors encountered:            4
 
 Disqualifications
 ---
 
-- https://github.com/dhth/squish/pull/77            state: unknown
-- https://github.com/dhth/tbll/pull/88              state: unknown
-- https://github.com/dhth/envee/pull/36             state: unknown
-- https://github.com/dhth/squidge/pull/81           state: unknown
-- https://github.com/dhth/tash/pull/80              state: unknown
+- https://github.com/dhth/ghx/pull/65               check preview: unknown conclusion
+- https://github.com/dhth/atls/pull/33              state: blocked
+- https://github.com/dhth/ddiff/pull/54             state: blocked
+- https://github.com/dhth/graphc/pull/80            check lint: failure
 - https://github.com/dhth/punchout/pull/112         check vulncheck: failure
-- https://github.com/dhth/urll/pull/53              check audit: failure
-- https://github.com/dhth/urll/pull/54              check audit: failure
-- https://github.com/dhth/commits/pull/53           check release-check: failure
-- https://github.com/dhth/commits/pull/56           check release-check: failure
+- https://github.com/dhth/squish/pull/77            state: blocked
+- https://github.com/dhth/envee/pull/36             state: blocked
+- https://github.com/dhth/tbll/pull/88              state: blocked
+- https://github.com/dhth/bmm/pull/125              state: blocked
+- https://github.com/dhth/tomo/pull/98              state: blocked
 - https://github.com/dhth/chronotes/pull/50         check preview: unknown conclusion
 - https://github.com/dhth/chronotes/pull/52         check preview: unknown conclusion
+- https://github.com/dhth/commits/pull/53           check release-check: failure
+- https://github.com/dhth/commits/pull/56           check release-check: failure
+- https://github.com/dhth/urll/pull/53              check audit: failure
+- https://github.com/dhth/urll/pull/54              check audit: failure
+- https://github.com/dhth/ecscope/pull/127          state: blocked
+- https://github.com/dhth/ecscope/pull/128          state: blocked
 - https://github.com/dhth/act3-runner/pull/5        state: blocked
 - https://github.com/dhth/act3-runner/pull/6        state: blocked
 - https://github.com/dhth/act3-runner/pull/8        state: blocked
@@ -1176,15 +935,9 @@ Disqualifications
 - https://github.com/dhth/shfl/pull/45              check audit: failure
 - https://github.com/dhth/shfl/pull/48              check audit: failure
 - https://github.com/dhth/shfl/pull/49              check audit: failure
-- https://github.com/dhth/ddiff/pull/54             state: unknown
 - https://github.com/dhth/unreleased/pull/19        check audit: failure
 - https://github.com/dhth/unreleased/pull/21        check audit: failure
 - https://github.com/dhth/unreleased/pull/22        check audit: failure
-- https://github.com/dhth/ghx/pull/65               check preview: unknown conclusion
-- https://github.com/dhth/graphc/pull/80            check lint: failure
-- https://github.com/dhth/atls/pull/33              state: unknown
-- https://github.com/dhth/ecscope/pull/127          state: unknown
-- https://github.com/dhth/ecscope/pull/128          state: unknown
 - https://github.com/dhth/dfft/pull/97              check build-ubuntu-latest-default: failure
 - https://github.com/dhth/dfft/pull/99              check audit: failure
 - https://github.com/dhth/dfft/pull/100             check audit: failure
