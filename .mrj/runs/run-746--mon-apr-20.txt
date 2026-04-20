@@ -9,7 +9,7 @@
                           \/___/
 
 
-[INFO] The time right now is 2026-04-10 22:45:53.340491464 UTC
+[INFO] The time right now is 2026-04-20 23:46:20.204011151 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
 
@@ -22,49 +22,13 @@
         ci: bump goreleaser/goreleaser-action from 6 to 7
         https://github.com/dhth/commits/pull/53
         Created: Sun, 1 Mar 2026 07:04:35 +0000
-        Updated: Thu, 9 Apr 2026 20:58:55 +0000
+        Updated: Sat, 11 Apr 2026 14:16:33 +0000
         [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with desired status: "success"
-        [ check  ]   "release-check" concluded with undesired status: "failure" ❌
-
-
-=============
-  dhth/urll
-=============
-
--> checking PR #54
-        build: bump the patch-updates group across 1 directory with 2 updates
-        https://github.com/dhth/urll/pull/54
-        Created: Wed, 1 Apr 2026 20:07:37 +0000
-        Updated: Wed, 1 Apr 2026 20:08:03 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with undesired status: "failure" ❌
-
-
-=============
-  dhth/ting
-=============
-
--> checking PR #62
-        build: bump toml from 0.9.11+spec-1.1.0 to 1.0.3+spec-1.1.0
-        https://github.com/dhth/ting/pull/62
-        Created: Sun, 1 Mar 2026 00:38:21 +0000
-        Updated: Thu, 9 Apr 2026 20:35:17 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
-        [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
-        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
-        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
         [ check  ]   "lint-yaml" concluded with desired status: "success"
         [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "dstlled-diff" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with undesired status: "failure" ❌
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
 
 
 =============
@@ -88,66 +52,18 @@
 
 
 =============
-  dhth/shfl
+  dhth/urll
 =============
 
--> checking PR #45
-        ci: bump goreleaser/goreleaser-action from 6 to 7
-        https://github.com/dhth/shfl/pull/45
-        Created: Sun, 1 Mar 2026 09:44:43 +0000
-        Updated: Thu, 9 Apr 2026 21:00:51 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with undesired status: "failure" ❌
-
--> checking PR #49
-        build: bump anyhow from 1.0.100 to 1.0.102 in the patch-updates group across 1 directory
-        https://github.com/dhth/shfl/pull/49
-        Created: Wed, 1 Apr 2026 11:06:06 +0000
-        Updated: Wed, 1 Apr 2026 11:06:07 +0000
+-> checking PR #54
+        build: bump the patch-updates group across 1 directory with 2 updates
+        https://github.com/dhth/urll/pull/54
+        Created: Wed, 1 Apr 2026 20:07:37 +0000
+        Updated: Wed, 1 Apr 2026 20:08:03 +0000
         [ author ]   "dependabot[bot]" is in the list of trusted authors
         [ check  ]   "lint-workflows" concluded with desired status: "success"
         [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "release-check" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with undesired status: "failure" ❌
-
-
-=============
-  dhth/grafq
-=============
-
--> checking PR #37
-        build: bump the minor-updates group across 1 directory with 4 updates
-        https://github.com/dhth/grafq/pull/37
-        Created: Wed, 1 Apr 2026 12:42:10 +0000
-        Updated: Wed, 1 Apr 2026 12:42:11 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
-        [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
-        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
-        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with undesired status: "failure" ❌
-
--> checking PR #38
-        build: bump the patch-updates group across 1 directory with 5 updates
-        https://github.com/dhth/grafq/pull/38
-        Created: Wed, 1 Apr 2026 12:42:37 +0000
-        Updated: Wed, 1 Apr 2026 12:42:38 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
-        [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
-        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
-        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
-        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
         [ check  ]   "audit" concluded with undesired status: "failure" ❌
 
 
@@ -224,28 +140,23 @@
         [ state  ]   "clean" is desirable
         error 😵: couldn't merge PR
 
-[INFO] This run ended at 2026-04-10 22:45:56.937133306 UTC; took 3 seconds
+[INFO] This run ended at 2026-04-20 23:46:23.586135598 UTC; took 3 seconds
 
 ===========
   SUMMARY
 ===========
 
 - PRs merged:                    0
-- PRs disqualified:              10
+- PRs disqualified:              5
 - Repos checked:                 41
-- Repos with no relevant PRs:    33
+- Repos with no relevant PRs:    36
 - Errors encountered:            2
 
 Disqualifications
 ---
 
-- https://github.com/dhth/commits/pull/53           check release-check: failure
-- https://github.com/dhth/urll/pull/54              check audit: failure
-- https://github.com/dhth/ting/pull/62              check audit: failure
+- https://github.com/dhth/commits/pull/53           check vulncheck: failure
 - https://github.com/dhth/graphc/pull/80            check lint: failure
-- https://github.com/dhth/shfl/pull/45              check audit: failure
-- https://github.com/dhth/shfl/pull/49              check audit: failure
-- https://github.com/dhth/grafq/pull/37             check audit: failure
-- https://github.com/dhth/grafq/pull/38             check audit: failure
+- https://github.com/dhth/urll/pull/54              check audit: failure
 - https://github.com/dhth/unreleased/pull/19        check audit: failure
 - https://github.com/dhth/unreleased/pull/22        check audit: failure
