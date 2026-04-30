@@ -9,25 +9,9 @@
                           \/___/
 
 
-[INFO] The time right now is 2026-04-20 22:46:34.137390553 UTC
+[INFO] The time right now is 2026-04-30 23:47:47.435500259 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
-
-
-=============
-  dhth/urll
-=============
-
--> checking PR #54
-        build: bump the patch-updates group across 1 directory with 2 updates
-        https://github.com/dhth/urll/pull/54
-        Created: Wed, 1 Apr 2026 20:07:37 +0000
-        Updated: Wed, 1 Apr 2026 20:08:03 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with undesired status: "failure" ❌
 
 
 =============
@@ -112,50 +96,21 @@
         [ check  ]   "lint" concluded with desired status: "success"
         [ check  ]   "audit" concluded with undesired status: "failure" ❌
 
-
-=============
-  dhth/unreleased-report
-=============
-
--> checking PR #2
-        ci: bump actions/deploy-pages from 4 to 5
-        https://github.com/dhth/unreleased-report/pull/2
-        Created: Wed, 1 Apr 2026 01:36:42 +0000
-        Updated: Wed, 1 Apr 2026 01:36:43 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        error 😵: couldn't merge PR
-
--> checking PR #3
-        ci: bump dorny/paths-filter from 3 to 4
-        https://github.com/dhth/unreleased-report/pull/3
-        Created: Wed, 1 Apr 2026 01:36:47 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "clean" is desirable
-        error 😵: couldn't merge PR
-
-[INFO] This run ended at 2026-04-20 22:46:37.655514859 UTC; took 3 seconds
+[INFO] This run ended at 2026-04-30 23:47:49.669573557 UTC; took 2 seconds
 
 ===========
   SUMMARY
 ===========
 
 - PRs merged:                    0
-- PRs disqualified:              5
+- PRs disqualified:              4
 - Repos checked:                 41
-- Repos with no relevant PRs:    36
-- Errors encountered:            2
+- Repos with no relevant PRs:    38
+- Errors encountered:            0
 
 Disqualifications
 ---
 
-- https://github.com/dhth/urll/pull/54              check audit: failure
 - https://github.com/dhth/graphc/pull/80            check lint: failure
 - https://github.com/dhth/commits/pull/53           check vulncheck: failure
 - https://github.com/dhth/unreleased/pull/19        check audit: failure
