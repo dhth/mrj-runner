@@ -9,7 +9,7 @@
                           \/___/
 
 
-[INFO] The time right now is 2026-05-02 23:48:19.021829231 UTC
+[INFO] The time right now is 2026-05-05 22:51:10.158680323 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
 
@@ -32,6 +32,21 @@
 
 
 =============
+  dhth/graphc
+=============
+
+-> checking PR #88
+        build: bump ty from 0.0.19 to 0.0.33
+        https://github.com/dhth/graphc/pull/88
+        Created: Fri, 1 May 2026 03:17:42 +0000
+        Updated: Fri, 1 May 2026 22:52:21 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with undesired status: "failure" ❌
+
+
+=============
   dhth/commits
 =============
 
@@ -46,21 +61,6 @@
         [ check  ]   "lint-workflows" concluded with desired status: "success"
         [ check  ]   "build (macos-latest)" concluded with desired status: "success"
         [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
-
-
-=============
-  dhth/graphc
-=============
-
--> checking PR #88
-        build: bump ty from 0.0.19 to 0.0.33
-        https://github.com/dhth/graphc/pull/88
-        Created: Fri, 1 May 2026 03:17:42 +0000
-        Updated: Fri, 1 May 2026 22:52:21 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with undesired status: "failure" ❌
 
 
 =============
@@ -398,7 +398,7 @@
         [ check  ]   "build-rust (macos-latest)" concluded with desired status: "success"
         [ check  ]   "audit" concluded with undesired status: "failure" ❌
 
-[INFO] This run ended at 2026-05-02 23:48:24.370753884 UTC; took 5 seconds
+[INFO] This run ended at 2026-05-05 22:51:16.221907345 UTC; took 6 seconds
 
 ===========
   SUMMARY
@@ -414,8 +414,8 @@ Disqualifications
 ---
 
 - https://github.com/dhth/mrj-runner/pull/17        state: unknown
-- https://github.com/dhth/commits/pull/53           check vulncheck: failure
 - https://github.com/dhth/graphc/pull/88            check lint: failure
+- https://github.com/dhth/commits/pull/53           check vulncheck: failure
 - https://github.com/dhth/tomo/pull/101             check test (ubuntu-latest): failure
 - https://github.com/dhth/squish/pull/80            check audit: failure
 - https://github.com/dhth/squish/pull/81            check audit: failure
