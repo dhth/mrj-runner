@@ -3,10 +3,12 @@ repos = [
     "dhth/act3",
     "dhth/agent0",
     "dhth/agent1",
+    "dhth/agx",
     "dhth/atls",
     "dhth/bmm",
     "dhth/chronotes",
     "dhth/commits",
+    "dhth/crumbs",
     "dhth/cueitup",
     "dhth/ddiff",
     "dhth/dfft",
@@ -14,6 +16,7 @@ repos = [
     "dhth/ecscope",
     "dhth/ecsv",
     "dhth/envee",
+    "dhth/gh",
     "dhth/ghx",
     "dhth/grafq",
     "dhth/graphc",
@@ -26,6 +29,7 @@ repos = [
     "dhth/outtasync",
     "dhth/prs",
     "dhth/punchout",
+    "dhth/refit",
     "dhth/schemas",
     "dhth/shfl",
     "dhth/squidge",
@@ -39,7 +43,6 @@ repos = [
     "dhth/unreleased-report",
     "dhth/unreleased",
     "dhth/urll",
-    "dhth/zero2prod",
 ]
 trusted_authors = ["dependabot[bot]", "github-actions[bot]"]
 base_branch = "main"
