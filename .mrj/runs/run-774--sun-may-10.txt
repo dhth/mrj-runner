@@ -9,26 +9,9 @@
                           \/___/
 
 
-[INFO] The time right now is 2026-05-03 23:21:45.470301186 UTC
+[INFO] The time right now is 2026-05-10 22:18:30.830862792 UTC
 [INFO] I'm only looking for PRs where the base branch is "main"
 [INFO] I'm sorting PRs based on "creation date" in the "ascending" direction
-
-
-=============
-  dhth/mrj-runner
-=============
-
--> checking PR #17
-        ci: bump actions/deploy-pages from 4 to 5
-        https://github.com/dhth/mrj-runner/pull/17
-        Created: Fri, 1 May 2026 23:55:51 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "validate" concluded with desired status: "success"
-        [ check  ]   "lint-sh" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "changes" concluded with desired status: "success"
-        [ state  ]   "unknown" is undesirable ❌
 
 
 =============
@@ -47,23 +30,6 @@
 
 
 =============
-  dhth/commits
-=============
-
--> checking PR #53
-        ci: bump goreleaser/goreleaser-action from 6 to 7
-        https://github.com/dhth/commits/pull/53
-        Created: Sun, 1 Mar 2026 07:04:35 +0000
-        Updated: Sat, 11 Apr 2026 14:16:33 +0000
-        [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
-
-
-=============
   dhth/tomo
 =============
 
@@ -79,6 +45,23 @@
         [ check  ]   "dstlled-diff" concluded with desired status: "success"
         [ check  ]   "audit" concluded with desired status: "success"
         [ check  ]   "test (ubuntu-latest)" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/commits
+=============
+
+-> checking PR #53
+        ci: bump goreleaser/goreleaser-action from 6 to 7
+        https://github.com/dhth/commits/pull/53
+        Created: Sun, 1 Mar 2026 07:04:35 +0000
+        Updated: Sat, 11 Apr 2026 14:16:33 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "vulncheck" concluded with undesired status: "failure" ❌
 
 
 =============
@@ -146,6 +129,47 @@
 
 
 =============
+  dhth/unreleased
+=============
+
+-> checking PR #19
+        build: bump toml from 0.9.11+spec-1.1.0 to 1.0.3+spec-1.1.0
+        https://github.com/dhth/unreleased/pull/19
+        Created: Sun, 1 Mar 2026 01:21:32 +0000
+        Updated: Sun, 1 Mar 2026 01:21:33 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
+        [ check  ]   "announce" concluded with desired status: "success"
+        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
+        [ check  ]   "host" concluded with desired status: "success"
+        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
+        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with undesired status: "failure" ❌
+
+-> checking PR #22
+        build: bump the patch-updates group across 1 directory with 4 updates
+        https://github.com/dhth/unreleased/pull/22
+        Created: Wed, 1 Apr 2026 01:24:42 +0000
+        Updated: Fri, 1 May 2026 01:37:18 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with undesired status: "failure" ❌
+
+
+=============
   dhth/mrj
 =============
 
@@ -190,44 +214,60 @@
 
 
 =============
-  dhth/unreleased
+  dhth/refit
 =============
 
--> checking PR #19
-        build: bump toml from 0.9.11+spec-1.1.0 to 1.0.3+spec-1.1.0
-        https://github.com/dhth/unreleased/pull/19
-        Created: Sun, 1 Mar 2026 01:21:32 +0000
-        Updated: Sun, 1 Mar 2026 01:21:33 +0000
+-> checking PR #5
+        build: bump clap from 4.6.0 to 4.6.1 in the patch-updates group
+        https://github.com/dhth/refit/pull/5
+        Created: Fri, 1 May 2026 14:33:16 +0000
+        Updated: Fri, 1 May 2026 14:33:17 +0000
         [ author ]   "dependabot[bot]" is in the list of trusted authors
-        [ check  ]   "custom-publish-crates" concluded with desired status: "success"
-        [ check  ]   "announce" concluded with desired status: "success"
-        [ check  ]   "publish-homebrew-formula" concluded with desired status: "success"
-        [ check  ]   "host" concluded with desired status: "success"
-        [ check  ]   "build-global-artifacts" concluded with desired status: "success"
-        [ check  ]   "build-local-artifacts (${{ join(matrix.targets, ', ') }})" concluded with desired status: "success"
         [ check  ]   "lint-workflows" concluded with desired status: "success"
         [ check  ]   "lint-yaml" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
         [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
         [ check  ]   "lint" concluded with desired status: "success"
-        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with undesired status: "failure" ❌
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
 
--> checking PR #22
-        build: bump the patch-updates group across 1 directory with 4 updates
-        https://github.com/dhth/unreleased/pull/22
-        Created: Wed, 1 Apr 2026 01:24:42 +0000
-        Updated: Fri, 1 May 2026 01:37:18 +0000
+
+=============
+  dhth/gh
+=============
+
+-> checking PR #3
+        ci: bump actions/upload-pages-artifact from 4 to 5
+        https://github.com/dhth/gh/pull/3
+        Created: Fri, 1 May 2026 10:52:41 +0000
+        Updated: Fri, 1 May 2026 10:52:42 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
+
+
+=============
+  dhth/crumbs
+=============
+
+-> checking PR #9
+        build: bump clap from 4.6.0 to 4.6.1 in the patch-updates group
+        https://github.com/dhth/crumbs/pull/9
+        Created: Fri, 1 May 2026 01:38:33 +0000
+        Updated: Fri, 1 May 2026 01:38:34 +0000
         [ author ]   "dependabot[bot]" is in the list of trusted authors
         [ check  ]   "lint-yaml" concluded with desired status: "success"
         [ check  ]   "lint-workflows" concluded with desired status: "success"
-        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
-        [ check  ]   "lint" concluded with desired status: "success"
         [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
         [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
-        [ check  ]   "audit" concluded with undesired status: "failure" ❌
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
 
 
 =============
@@ -294,6 +334,44 @@
         [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
         [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
         [ check  ]   "audit" concluded with undesired status: "failure" ❌
+
+
+=============
+  dhth/agx
+=============
+
+-> checking PR #36
+        build: bump tracing-opentelemetry from 0.31.0 to 0.32.1
+        https://github.com/dhth/agx/pull/36
+        Created: Sun, 1 Feb 2026 02:35:43 +0000
+        Updated: Sun, 1 Feb 2026 02:35:44 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "build-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with undesired status: "failure" ❌
+
+-> checking PR #37
+        build: bump rig-core from 0.28.0 to 0.29.0
+        https://github.com/dhth/agx/pull/37
+        Created: Sun, 1 Feb 2026 02:36:04 +0000
+        Updated: Sun, 1 Feb 2026 02:36:05 +0000
+        [ author ]   "dependabot[bot]" is in the list of trusted authors
+        [ check  ]   "lint-gleam" concluded with desired status: "success"
+        [ check  ]   "build-gleam" concluded with desired status: "success"
+        [ check  ]   "lint-workflows" concluded with desired status: "success"
+        [ check  ]   "lint-yaml" concluded with desired status: "success"
+        [ check  ]   "audit" concluded with desired status: "success"
+        [ check  ]   "test (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "test (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "build (macos-latest)" concluded with desired status: "success"
+        [ check  ]   "lint" concluded with desired status: "success"
+        [ check  ]   "build (ubuntu-latest)" concluded with desired status: "success"
+        [ check  ]   "changes" concluded with desired status: "success"
+        [ state  ]   "clean" is desirable
+        PR merged! 🎉 ✅
 
 
 =============
@@ -398,36 +476,44 @@
         [ check  ]   "build-rust (macos-latest)" concluded with desired status: "success"
         [ check  ]   "audit" concluded with undesired status: "failure" ❌
 
-[INFO] This run ended at 2026-05-03 23:21:49.841484189 UTC; took 4 seconds
+[INFO] This run ended at 2026-05-10 22:18:35.237829296 UTC; took 4 seconds
 
 ===========
   SUMMARY
 ===========
 
-- PRs merged:                    0
+- PRs merged:                    4
 - PRs disqualified:              20
-- Repos checked:                 41
+- Repos checked:                 44
 - Repos with no relevant PRs:    31
 - Errors encountered:            0
+
+PRs merged
+---
+
+- [dhth/refit] build: bump clap from 4.6.0 to 4.6.1 in the patch-updates group
+- [dhth/gh] ci: bump actions/upload-pages-artifact from 4 to 5
+- [dhth/crumbs] build: bump clap from 4.6.0 to 4.6.1 in the patch-updates group
+- [dhth/agx] build: bump rig-core from 0.28.0 to 0.29.0
 
 Disqualifications
 ---
 
-- https://github.com/dhth/mrj-runner/pull/17        state: unknown
 - https://github.com/dhth/graphc/pull/88            check lint: failure
-- https://github.com/dhth/commits/pull/53           check vulncheck: failure
 - https://github.com/dhth/tomo/pull/101             check test (ubuntu-latest): failure
+- https://github.com/dhth/commits/pull/53           check vulncheck: failure
 - https://github.com/dhth/agent1/pull/32            check audit: failure
 - https://github.com/dhth/agent1/pull/33            check audit: failure
 - https://github.com/dhth/squish/pull/80            check audit: failure
 - https://github.com/dhth/squish/pull/81            check audit: failure
-- https://github.com/dhth/mrj/pull/91               check audit: failure
-- https://github.com/dhth/mrj/pull/92               check audit: failure
 - https://github.com/dhth/unreleased/pull/19        check audit: failure
 - https://github.com/dhth/unreleased/pull/22        check audit: failure
+- https://github.com/dhth/mrj/pull/91               check audit: failure
+- https://github.com/dhth/mrj/pull/92               check audit: failure
 - https://github.com/dhth/grafq/pull/43             check audit: failure
 - https://github.com/dhth/grafq/pull/44             check audit: failure
 - https://github.com/dhth/grafq/pull/45             check audit: failure
+- https://github.com/dhth/agx/pull/36               check lint: failure
 - https://github.com/dhth/ecscope/pull/134          check audit: failure
 - https://github.com/dhth/ecscope/pull/135          check audit: failure
 - https://github.com/dhth/ecscope/pull/136          check audit: failure
