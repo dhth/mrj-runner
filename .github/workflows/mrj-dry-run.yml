@@ -20,7 +20,7 @@ jobs:
         id: generate-token
         uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ secrets.MRJ_APP_ID }}
+          client-id: ${{ secrets.MRJ_APP_ID }}
           private-key: ${{ secrets.MRJ_APP_PRIVATE_KEY }}
           owner: dhth
       - name: Run mrj
