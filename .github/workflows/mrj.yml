@@ -25,11 +25,6 @@ jobs:
         with:
           repo: dhth/mrj
           tag: ${{ env.MRJ_VERSION }}
-      - name: Install tbll
-        uses: jaxxstorm/action-install-gh-release@25e24d2d23ae098373794ef1d6faecb48ee52da8 # v3.0.0
-        with:
-          repo: dhth/tbll
-          tag: v1.1.0
       - uses: actions/checkout@v6
       - name: Generate GH token
         id: generate-token
