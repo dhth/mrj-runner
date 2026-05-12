@@ -14,7 +14,7 @@ permissions:
   id-token: write
 
 env:
-  MRJ_VERSION: v0.4.0
+  MRJ_VERSION: v0.5.0-alpha.1
 
 jobs:
   run:
@@ -25,17 +25,12 @@ jobs:
         with:
           repo: dhth/mrj
           tag: ${{ env.MRJ_VERSION }}
-      - name: Install tbll
-        uses: jaxxstorm/action-install-gh-release@25e24d2d23ae098373794ef1d6faecb48ee52da8 # v3.0.0
-        with:
-          repo: dhth/tbll
-          tag: v1.1.0
       - uses: actions/checkout@v6
       - name: Generate GH token
         id: generate-token
         uses: actions/create-github-app-token@v3
         with:
-          app-id: ${{ secrets.MRJ_APP_ID }}
+          client-id: ${{ secrets.MRJ_APP_ID }}
           private-key: ${{ secrets.MRJ_APP_PRIVATE_KEY }}
           owner: dhth
       - name: Run mrj
@@ -52,7 +47,6 @@ jobs:
       - name: Generate report
         run: |
           mrj report generate \
-              --html-template static/template.html \
               --title "dependency updates"
       - name: Get run number
         id: run-number
