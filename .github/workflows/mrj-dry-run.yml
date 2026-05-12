@@ -29,4 +29,8 @@ jobs:
           CLICOLOR_FORCE: 1
           COLORTERM: "truecolor"
         run: |
-          mrj run
+          mrj run -eos
+      - name: Generate report
+        run: |
+          mrj report generate \
+              --title "dependency updates"
