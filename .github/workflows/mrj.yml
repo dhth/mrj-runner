@@ -52,7 +52,6 @@ jobs:
       - name: Generate report
         run: |
           mrj report generate \
-              --html-template static/template.html \
               --title "dependency updates"
       - name: Get run number
         id: run-number
