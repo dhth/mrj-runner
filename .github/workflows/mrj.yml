@@ -40,28 +40,33 @@ jobs:
           COLORTERM: "truecolor"
         run: |
           mrj run -eos
-      - name: Check if report contains useful info
-        id: check-notif
+      - name: Check if results should be published
+        id: check-publish
         run: |
-          echo "send=$(./.github/scripts/should-send-notif.sh)" >> "$GITHUB_OUTPUT"
+          echo "publish=$(./.github/scripts/should-publish-results.sh)" >> "$GITHUB_OUTPUT"
       - name: Generate report
+        if: steps.check-publish.outputs.publish == '1'
         run: |
           mrj report generate \
               --title "dependency updates"
       - name: Get run number
         id: run-number
+        if: steps.check-publish.outputs.publish == '1'
         run: echo "number=$(cat ./.mrj/last-run.txt)" >> "$GITHUB_OUTPUT"
       - name: Setup Pages
+        if: steps.check-publish.outputs.publish == '1'
         uses: actions/configure-pages@v6
       - name: Upload artifact
+        if: steps.check-publish.outputs.publish == '1'
         uses: actions/upload-pages-artifact@v5
         with:
           path: "dist"
       - name: Deploy to GitHub Pages
         id: deployment
+        if: steps.check-publish.outputs.publish == '1'
         uses: actions/deploy-pages@v5
       - name: Commit and push results
-        if: steps.check-notif.outputs.send == '1'
+        if: steps.check-publish.outputs.publish == '1'
         run: |
           git config user.name "github-actions[bot]"
           # https://github.com/actions/checkout?tab=readme-ov-file#push-a-commit-using-the-built-in-token
@@ -71,12 +76,12 @@ jobs:
           git push
       - name: Generate summary
         id: get-summary
-        if: steps.check-notif.outputs.send == '1'
+        if: steps.check-publish.outputs.publish == '1'
         run: |
           echo "summary=$(python -c 'import sys;data = sys.stdin.read().replace("\n", "\\n");print(data)' < summary.txt)" >> "$GITHUB_OUTPUT"
       - name: Send notification
         id: send-notification
-        if: steps.check-notif.outputs.send == '1' && contains(steps.get-summary.outputs.summary, 'SUMMARY')
+        if: steps.check-publish.outputs.publish == '1' && contains(steps.get-summary.outputs.summary, 'SUMMARY')
         uses: slackapi/slack-github-action@v3
         with:
           method: chat.postMessage
