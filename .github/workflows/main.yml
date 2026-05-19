@@ -6,7 +6,7 @@ on:
       - 'main'
 
 env:
-  MRJ_VERSION: v0.5.0-alpha.4
+  MRJ_VERSION: v0.5.0-alpha.5
 
 jobs:
   changes:
