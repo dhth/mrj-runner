@@ -4,7 +4,7 @@ on:
   pull_request:
 
 env:
-  MRJ_VERSION: v0.5.0-alpha.5
+  MRJ_VERSION: v0.5.0
 
 jobs:
   changes:
